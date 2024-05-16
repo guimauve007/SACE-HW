@@ -393,6 +393,18 @@
     [
       "558e191e-4d57-467a-8f3d-07afb9cf3132",
       "MCU"
+    ],
+    [
+      "bda9c1af-9e39-4d1c-9beb-c58cbb11e7a4",
+      "HV"
+    ],
+    [
+      "9ebd2496-8213-4575-b78a-e0103001acbf",
+      "USB_Serial"
+    ],
+    [
+      "89fdb234-fe30-4f1f-ac7b-866137add73a",
+      "Acquisition"
     ]
   ],
   "text_variables": {}
