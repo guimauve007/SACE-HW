@@ -942,144 +942,6 @@
 				)
 			)
 		)
-		(symbol "Connectors:1935161"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "1935161"
-				(at 0 -8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Connectors:1935161"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf"
-				(at 0 -24.384 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TERM BLOCK PCB 2POS 5.0MM GREEN"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digikey"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number" "277-1667-ND"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Phoenix Contact"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "1935161"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1935161_0_0"
-				(rectangle
-					(start -3.81 3.81)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "1935161_1_1"
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connectors:Header_Male_Pin_2.54mm_1X2_,_Unshrouded"
 			(pin_names
 				(offset 0) hide)
@@ -1212,6 +1074,340 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connectors:PJ-082BH"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.6246 10.1631 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PJ-082BH"
+				(at -2.794 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Connectors:CUI_PJ-082BH"
+				(at 0.762 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.cuidevices.com/product/resource/pj-082bh.pdf"
+				(at 1.016 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC connector jack"
+				(at -2.032 -18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "CUI"
+				(at -0.508 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "PJ-082BH"
+				(at -1.016 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digikey"
+				(at -0.508 -22.606 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number" "CP-082BHCT-ND"
+				(at 0 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jack, DC connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PJ-082BH_0_0"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -5.715 3.81)
+					(mid -6.9794 2.54)
+					(end -5.715 1.27)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -4.445 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -2.54) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -5.715 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.445) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 4.445) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2263,7 +2459,7 @@
 				)
 			)
 		)
-		(symbol "Power_Port:12V"
+		(symbol "Power_Port:12VA"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2280,7 +2476,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "12V"
+			(property "Value" "12VA"
 				(at -0.254 3.556 0)
 				(effects
 					(font
@@ -2322,7 +2518,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "12V_0_1"
+			(symbol "12VA_0_1"
 				(polyline
 					(pts
 						(xy -1.778 2.54) (xy 0 2.54)
@@ -2360,11 +2556,11 @@
 					)
 				)
 			)
-			(symbol "12V_1_1"
+			(symbol "12VA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0) hide
-					(name "12V"
+					(name "12VA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2381,7 +2577,7 @@
 				)
 			)
 		)
-		(symbol "Power_Port:3.3V"
+		(symbol "Power_Port:3.3VA"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2398,7 +2594,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "3.3V"
+			(property "Value" "3.3VA"
 				(at -0.254 3.556 0)
 				(effects
 					(font
@@ -2440,7 +2636,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "3.3V_0_1"
+			(symbol "3.3VA_0_1"
 				(polyline
 					(pts
 						(xy -1.778 2.54) (xy 0 2.54)
@@ -2478,11 +2674,11 @@
 					)
 				)
 			)
-			(symbol "3.3V_1_1"
+			(symbol "3.3VA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0) hide
-					(name "3.3V"
+					(name "3.3VA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2499,7 +2695,7 @@
 				)
 			)
 		)
-		(symbol "Power_Port:5V"
+		(symbol "Power_Port:3.3VB"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2516,7 +2712,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "5V"
+			(property "Value" "3.3VB"
 				(at -0.254 3.556 0)
 				(effects
 					(font
@@ -2558,7 +2754,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "5V_0_1"
+			(symbol "3.3VB_0_1"
 				(polyline
 					(pts
 						(xy -1.778 2.54) (xy 0 2.54)
@@ -2596,11 +2792,129 @@
 					)
 				)
 			)
-			(symbol "5V_1_1"
+			(symbol "3.3VB_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0) hide
-					(name "5V"
+					(name "3.3VB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Power_Port:5VA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "5VA"
+				(at -0.254 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "POWER, PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5VA_0_1"
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.778 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "5VA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2735,7 +3049,7 @@
 				)
 			)
 		)
-		(symbol "Power_Port:AGND"
+		(symbol "Power_Port:GNDA"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2752,7 +3066,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "AGND"
+			(property "Value" "GNDA"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2794,7 +3108,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AGND_0_1"
+			(symbol "GNDA_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 1.27 0)
@@ -2832,11 +3146,11 @@
 					)
 				)
 			)
-			(symbol "AGND_1_1"
+			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 2.54 90)
 					(length 0) hide
-					(name "AGND"
+					(name "GNDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2853,7 +3167,7 @@
 				)
 			)
 		)
-		(symbol "Power_Port:DGND"
+		(symbol "Power_Port:GNDB"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2870,7 +3184,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "DGND"
+			(property "Value" "GNDB"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2912,7 +3226,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DGND_0_1"
+			(symbol "GNDB_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 1.27 0)
@@ -2950,11 +3264,11 @@
 					)
 				)
 			)
-			(symbol "DGND_1_1"
+			(symbol "GNDB_1_1"
 				(pin power_in line
 					(at 0 2.54 90)
 					(length 0) hide
-					(name "DGND"
+					(name "GNDB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3776,10 +4090,28 @@
 		(uuid "269a18e4-c83c-4782-9eaf-702271bd09e7")
 	)
 	(junction
+		(at 162.56 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "291d3149-2994-45a6-a491-7328796e1657")
+	)
+	(junction
 		(at 219.71 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fad7786-cd18-42ab-9208-ce1f0513d301")
+	)
+	(junction
+		(at 190.5 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "332c9af6-cd4a-401d-b902-634d21914933")
+	)
+	(junction
+		(at 195.58 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3603b7cd-26c4-4443-a6fd-ceb41b1f54e7")
 	)
 	(junction
 		(at 245.11 55.88)
@@ -3824,6 +4156,12 @@
 		(uuid "98bb1dcb-51b0-4f0f-b155-57298db6d99c")
 	)
 	(junction
+		(at 185.42 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a800b9fc-b501-4786-81d9-5a762c07399c")
+	)
+	(junction
 		(at 212.09 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3840,6 +4178,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6cf87ba-88df-4ef8-9595-6832d7f1e179")
+	)
+	(junction
+		(at 68.58 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b73d2a4e-5302-4b3c-903b-1f88054f7e2b")
+	)
+	(junction
+		(at 149.86 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be4f0054-ca44-45be-937f-905e9cac8851")
 	)
 	(junction
 		(at 179.07 58.42)
@@ -3899,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 121.92) (xy 66.04 119.38)
+			(xy 111.76 138.43) (xy 111.76 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3919,7 +4269,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 121.92) (xy 100.33 120.65)
+			(xy 146.05 138.43) (xy 146.05 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3979,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 119.38) (xy 71.12 119.38)
+			(xy 111.76 135.89) (xy 116.84 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3996,6 +4346,16 @@
 			(type default)
 		)
 		(uuid "1ec1a6b8-0436-4d2e-b8f4-04656a4d3b53")
+	)
+	(wire
+		(pts
+			(xy 185.42 127) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bcb489-3035-45ec-ba18-ddeec2e7387a")
 	)
 	(wire
 		(pts
@@ -4019,6 +4379,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 127) (xy 185.42 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f34e17-c1a6-473e-bc83-b25b71de7596")
+	)
+	(wire
+		(pts
 			(xy 163.83 58.42) (xy 163.83 55.88)
 		)
 		(stroke
@@ -4039,13 +4409,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 118.11) (xy 95.25 118.11)
+			(xy 149.86 134.62) (xy 140.97 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b05696f-736f-48a3-ad28-c8a48fcf2671")
+	)
+	(wire
+		(pts
+			(xy 68.58 74.93) (xy 68.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8ef583-3eff-46be-a760-357d990404ef")
 	)
 	(wire
 		(pts
@@ -4059,16 +4439,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 63.5) (xy 67.31 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32113037-2a89-42a5-8e6c-755d41057324")
-	)
-	(wire
-		(pts
 			(xy 224.79 55.88) (xy 229.87 55.88)
 		)
 		(stroke
@@ -4076,6 +4446,16 @@
 			(type default)
 		)
 		(uuid "32ac3130-65d2-4838-a3aa-fb6769510e28")
+	)
+	(wire
+		(pts
+			(xy 175.26 137.16) (xy 175.26 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32be38a2-d02d-40c1-9f27-83e82f0e8917")
 	)
 	(wire
 		(pts
@@ -4129,6 +4509,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 129.54) (xy 149.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dd6045-5c54-46a8-9d44-76b63daf1baa")
+	)
+	(wire
+		(pts
 			(xy 125.73 71.12) (xy 133.35 71.12)
 		)
 		(stroke
@@ -4136,6 +4526,16 @@
 			(type default)
 		)
 		(uuid "4954697f-3395-4092-b2b1-517f90c59116")
+	)
+	(wire
+		(pts
+			(xy 66.04 66.04) (xy 68.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a71777b-9e4e-419e-a7bd-4bc84451ccb4")
 	)
 	(wire
 		(pts
@@ -4156,6 +4556,16 @@
 			(type default)
 		)
 		(uuid "59813c16-991e-4d4f-bd36-130dda5a6c9f")
+	)
+	(wire
+		(pts
+			(xy 185.42 129.54) (xy 182.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694efe5e-67aa-4a4c-893f-00a1c20f66b4")
 	)
 	(wire
 		(pts
@@ -4209,6 +4619,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 132.08) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8122cedd-e8b0-48ae-a266-24fb1b7646f0")
+	)
+	(wire
+		(pts
 			(xy 229.87 55.88) (xy 229.87 53.34)
 		)
 		(stroke
@@ -4239,16 +4659,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 60.96) (xy 66.04 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8435583b-6166-4e73-ab79-af92491f456b")
-	)
-	(wire
-		(pts
 			(xy 219.71 55.88) (xy 224.79 55.88)
 		)
 		(stroke
@@ -4259,6 +4669,36 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 129.54) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8507084b-74da-4758-8e9a-c87d45f7a191")
+	)
+	(wire
+		(pts
+			(xy 162.56 139.7) (xy 162.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86eebd2e-aedf-4b5b-bb01-ffa80bbf917d")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1507aa-08a2-4a2d-b5dd-cf31e94e0ab2")
+	)
+	(wire
+		(pts
 			(xy 73.66 58.42) (xy 85.09 58.42)
 		)
 		(stroke
@@ -4266,6 +4706,16 @@
 			(type default)
 		)
 		(uuid "908fbb5d-be76-494f-857e-9d5783cd1678")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 195.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911cd332-78dd-48d4-b594-ed07e895e51f")
 	)
 	(wire
 		(pts
@@ -4359,6 +4809,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 63.5) (xy 81.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fcaf2c6-834c-4861-baaa-a3accc01cdac")
+	)
+	(wire
+		(pts
 			(xy 85.09 55.88) (xy 85.09 58.42)
 		)
 		(stroke
@@ -4389,7 +4849,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 115.57) (xy 66.04 116.84)
+			(xy 195.58 127) (xy 195.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80e4d90-7e66-4c8a-ac85-6aa2962e9bf8")
+	)
+	(wire
+		(pts
+			(xy 81.28 73.66) (xy 68.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8abf559-12c3-467d-9719-7af254247cd5")
+	)
+	(wire
+		(pts
+			(xy 111.76 132.08) (xy 111.76 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4426,6 +4906,16 @@
 			(type default)
 		)
 		(uuid "ba93c700-59b8-45ff-9528-e5601b02febc")
+	)
+	(wire
+		(pts
+			(xy 66.04 63.5) (xy 81.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd31061-1704-41dd-9ca1-2f709085db58")
 	)
 	(wire
 		(pts
@@ -4499,6 +4989,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 137.16) (xy 195.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc892ea6-02f2-4eb6-936d-2db1ef02ef08")
+	)
+	(wire
+		(pts
 			(xy 171.45 55.88) (xy 171.45 58.42)
 		)
 		(stroke
@@ -4519,7 +5019,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 116.84) (xy 71.12 116.84)
+			(xy 111.76 133.35) (xy 116.84 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4539,7 +5039,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 116.84) (xy 100.33 118.11)
+			(xy 149.86 124.46) (xy 149.86 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4559,7 +5059,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 120.65) (xy 95.25 120.65)
+			(xy 146.05 137.16) (xy 140.97 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4599,6 +5099,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 127) (xy 190.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd19adba-cc29-47a2-a125-440a0e91373d")
+	)
+	(wire
+		(pts
+			(xy 162.56 129.54) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8be95f-a9c0-460e-a727-f6945e228fec")
+	)
+	(wire
+		(pts
 			(xy 245.11 55.88) (xy 250.19 55.88)
 		)
 		(stroke
@@ -4616,6 +5136,54 @@
 			(type default)
 		)
 		(uuid "ff6b4a78-1bf4-4301-9fd2-c97334c7f871")
+	)
+	(text_box "Source Supply (A)"
+		(exclude_from_sim no)
+		(at 36.195 34.29 0)
+		(size 222.25 66.675)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "206c5c44-cebb-4e1c-9800-04cbf7cd5226")
+	)
+	(text_box "Isolated Supply (B)"
+		(exclude_from_sim no)
+		(at 85.09 107.315 0)
+		(size 125.73 50.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "74c49c5c-64f8-4b63-b736-7a7a5fabbde4")
+	)
+	(text "TODO: REPLACE WITH RS3E-1205S/H3"
+		(exclude_from_sim no)
+		(at 131.064 151.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57ff524d-d905-4fe4-85f4-02ce86e8662a")
 	)
 	(text "12V IN"
 		(exclude_from_sim no)
@@ -4661,19 +5229,180 @@
 		)
 		(uuid "cdbba3bf-3cd5-4409-9eaf-bffe8aed8cb1")
 	)
-	(text "12V IN ->"
+	(symbol
+		(lib_id "Connectors:PJ-082BH")
+		(at 53.34 60.96 0)
+		(unit 1)
 		(exclude_from_sim no)
-		(at 49.784 59.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01eee6fd-16a8-4102-97a7-6e5d98aa88cd")
+		(property "Reference" "J202"
+			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
-		(uuid "e4447885-1eae-49af-a370-47f864f04f5b")
+		(property "Value" "PJ-082BH"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connectors:CUI_PJ-082BH"
+			(at 54.102 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/pj-082bh.pdf"
+			(at 54.356 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC connector jack"
+			(at 51.308 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CUI"
+			(at 52.832 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "PJ-082BH"
+			(at 52.324 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 52.832 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "CP-082BHCT-ND"
+			(at 53.34 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f350af9-6f12-4792-a289-770cdf278dc2")
+		)
+		(pin "SH"
+			(uuid "5d362abd-758f-4138-aeda-c7842224697a")
+		)
+		(pin "1"
+			(uuid "c2dc55af-d320-445e-bdde-048c98e567a0")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "J202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:GNDB")
+		(at 146.05 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bdffd82-5f84-44eb-82d1-d3fffa973ae0")
+		(property "Reference" "#PWR0217"
+			(at 146.05 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDB"
+			(at 149.606 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.542 143.256 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e7b685b-878e-4ab4-a8cf-bba7bf6b20df")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Power_Port:5VB")
-		(at 100.33 116.84 0)
+		(at 149.86 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4681,8 +5410,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101ce3ed-f97d-4f9e-8c52-07043e5d1100")
-		(property "Reference" "#PWR0203"
-			(at 100.33 120.65 0)
+		(property "Reference" "#PWR0213"
+			(at 149.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +5420,7 @@
 			)
 		)
 		(property "Value" "5VB"
-			(at 100.33 111.76 0)
+			(at 149.86 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +5428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 116.84 0)
+			(at 149.86 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4707,7 +5436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 116.84 0)
+			(at 149.86 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4715,7 +5444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 116.84 0)
+			(at 149.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +5458,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR0203")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -4737,7 +5466,7 @@
 	)
 	(symbol
 		(lib_id "PMIC:1769205241")
-		(at 64.77 115.57 0)
+		(at 110.49 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4746,7 +5475,7 @@
 		(fields_autoplaced yes)
 		(uuid "10e69cb7-15c5-40ca-a2e8-fd6d1a1f7f88")
 		(property "Reference" "IC201"
-			(at 83.185 102.87 0)
+			(at 128.905 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +5483,7 @@
 			)
 		)
 		(property "Value" "1769205241"
-			(at 83.185 105.41 0)
+			(at 128.905 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +5491,7 @@
 			)
 		)
 		(property "Footprint" "IC:1769205241"
-			(at 91.44 113.03 0)
+			(at 137.16 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +5501,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/1769205241.pdf"
-			(at 91.44 115.57 0)
+			(at 137.16 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +5511,7 @@
 			)
 		)
 		(property "Description" "WURTH ELEKTRONIK - 1769205241 - Isolated Surface Mount DC/DC Converter, ITE, 1 W, 1 Output, 5 V, 200 mA"
-			(at 91.44 118.11 0)
+			(at 137.16 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +5521,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 91.44 120.65 0)
+			(at 137.16 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +5531,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-1769205241"
-			(at 91.44 123.19 0)
+			(at 137.16 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +5541,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/1769205241?qs=T%252BzbugeAwjg1F3j57N9AQA%3D%3D"
-			(at 91.44 125.73 0)
+			(at 137.16 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +5551,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 91.44 128.27 0)
+			(at 137.16 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +5561,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "1769205241"
-			(at 91.44 130.81 0)
+			(at 137.16 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +5571,7 @@
 			)
 		)
 		(property "Supplier Part Number" "732-1769205241CT-ND"
-			(at 83.185 107.95 0)
+			(at 128.905 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +5579,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 83.185 110.49 0)
+			(at 128.905 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +5619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13bf89fd-9799-4f7b-9556-93ab35ce3e9c")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG0203"
 			(at 85.09 58.42 0)
 			(effects
 				(font
@@ -4938,7 +5667,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#FLG01")
+					(reference "#FLG0203")
 					(unit 1)
 				)
 			)
@@ -4953,7 +5682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17472aba-8f7a-4bf6-adf1-52333060521c")
-		(property "Reference" "C16"
+		(property "Reference" "C203"
 			(at 141.605 63.5 90)
 			(effects
 				(font
@@ -5068,14 +5797,144 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "C16")
+					(reference "C203")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:12V")
+		(lib_id "Capacitors:885012107005")
+		(at 195.58 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "211a27b4-34a3-4591-8924-4f4430862ee2")
+		(property "Reference" "C206"
+			(at 189.865 132.08 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "885012107005"
+			(at 204.47 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitors:C0805"
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "D"
+			(at 222.25 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 22UF 6.3V X5R 0805"
+			(at 217.17 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 207.01 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "732-7616-1-ND"
+			(at 209.55 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics Inc."
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "885012107005"
+			(at 214.63 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance (Farad)" "22µF"
+			(at 189.865 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance (%)" "±20%"
+			(at 198.628 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated (Volt)" "6.3V"
+			(at 200.406 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dca3f4b0-b5cb-4227-9e9c-cdcfce00f4dc")
+		)
+		(pin "2"
+			(uuid "2de24aa7-8bb4-4b5f-b678-079230680393")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "C206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:12VA")
 		(at 73.66 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5084,7 +5943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38e0d03a-bf3c-4625-9762-98e4e29762c4")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0203"
 			(at 73.66 59.69 0)
 			(effects
 				(font
@@ -5093,7 +5952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "12VA"
 			(at 73.66 50.8 0)
 			(effects
 				(font
@@ -5132,7 +5991,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR029")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -5147,7 +6006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3da099d0-5d06-4d28-a53f-bacf704b7efb")
-		(property "Reference" "C17"
+		(property "Reference" "C204"
 			(at 173.355 63.5 90)
 			(effects
 				(font
@@ -5262,7 +6121,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "C17")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -5277,7 +6136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44dffc7b-9d86-49c0-8e79-93e5847c2938")
-		(property "Reference" "U2"
+		(property "Reference" "U201"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -5404,7 +6263,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "U2")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -5419,7 +6278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a030d14-25e6-42de-83bb-77dd2099ce2d")
-		(property "Reference" "TP4"
+		(property "Reference" "TP201"
 			(at 219.71 45.085 90)
 			(effects
 				(font
@@ -5505,7 +6364,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP4")
+					(reference "TP201")
 					(unit 1)
 				)
 			)
@@ -5520,7 +6379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a7bd99b-0c5c-4377-b60f-6771cbfd7a8f")
-		(property "Reference" "TP2"
+		(property "Reference" "TP205"
 			(at 118.11 81.915 90)
 			(effects
 				(font
@@ -5606,7 +6465,137 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP2")
+					(reference "TP205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:885012107014")
+		(at 68.58 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cf8b574-79ce-48dc-8acd-f341a9b4dcfe")
+		(property "Reference" "C205"
+			(at 73.914 68.326 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "885012107014"
+			(at 77.47 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitors:C0805"
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "D"
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 16V X5R 0805"
+			(at 90.17 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 80.01 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "732-7624-1-ND"
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics Inc."
+			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "885012007027"
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance (Farad)" "10µF"
+			(at 74.422 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance (%)" "±20%"
+			(at 71.628 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated (Volt)" "16V"
+			(at 73.406 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "969c1381-eb5d-4afc-b2d6-30555bec0d59")
+		)
+		(pin "2"
+			(uuid "41e1e4ed-f8dc-435a-914e-5fd8d0a32710")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -5621,7 +6610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d8566f7-9ea9-497a-b602-a375a6506844")
-		(property "Reference" "TP1"
+		(property "Reference" "TP203"
 			(at 113.03 48.26 90)
 			(effects
 				(font
@@ -5707,7 +6696,70 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP1")
+					(reference "TP203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:GNDA")
+		(at 68.58 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ddf7465-276b-48b6-a240-8019b6fab2f1")
+		(property "Reference" "#PWR0209"
+			(at 68.58 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 72.136 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.072 79.756 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba9a8c39-ec20-4f20-a4ff-2cc650f26e8c")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -5722,7 +6774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50045a1d-9fe2-4132-8edc-0db5553e678e")
-		(property "Reference" "U3"
+		(property "Reference" "U202"
 			(at 191.77 50.8 0)
 			(effects
 				(font
@@ -5870,23 +6922,23 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "U3")
+					(reference "U202")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:DGND")
-		(at 212.09 71.12 0)
+		(lib_id "Power_Port:GNDB")
+		(at 175.26 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "522b58c3-6aec-497f-88b9-15edb0c0ea73")
-		(property "Reference" "#PWR038"
-			(at 212.09 75.438 0)
+		(uuid "5014c854-fbf7-49ab-b741-172f759af8ef")
+		(property "Reference" "#PWR0218"
+			(at 175.26 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,8 +6946,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DGND"
-			(at 212.09 73.66 0)
+		(property "Value" "GNDB"
+			(at 178.816 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +6955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 68.58 0)
+			(at 175.26 139.7 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5911,7 +6963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.582 73.406 0)
+			(at 174.752 144.526 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5919,7 +6971,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 71.12 0)
+			(at 175.26 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,12 +6980,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "34ea4703-771e-4ae9-b635-d8604df8aea7")
+			(uuid "676ccf9b-fb34-4228-bc9f-263ecb9fb53d")
 		)
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR038")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -5948,7 +7000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53717e3c-3d77-4b25-a31d-951ed7a7c7dc")
-		(property "Reference" "C18"
+		(property "Reference" "C201"
 			(at 206.375 60.96 90)
 			(effects
 				(font
@@ -6063,7 +7115,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "C18")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -6078,7 +7130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "543730ed-9ff5-46db-90f7-f2234734776e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0202"
 			(at 237.49 57.15 0)
 			(effects
 				(font
@@ -6126,40 +7178,40 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR041")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:DGND")
-		(at 158.75 93.98 0)
+		(lib_id "Power_Port:PWR_FLAG")
+		(at 190.5 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "54eff332-23ff-493a-8059-23a944ead72b")
-		(property "Reference" "#PWR035"
-			(at 158.75 98.298 0)
+		(uuid "59f1e6b3-b713-4e93-baf4-b9c129da439c")
+		(property "Reference" "#FLG0206"
+			(at 190.5 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "DGND"
-			(at 158.75 96.52 0)
+		(property "Value" "PWR_FLAG"
+			(at 190.5 119.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 91.44 0)
+			(at 190.5 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6167,7 +7219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.242 96.266 0)
+			(at 190.5 124.46 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6175,7 +7227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 93.98 0)
+			(at 190.5 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,12 +7236,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e167ae1-b433-4ac8-be34-7dbdfa2ac210")
+			(uuid "7f7d1f3c-b76e-46ef-8439-a9bd0a5f6c24")
 		)
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR035")
+					(reference "#FLG0206")
 					(unit 1)
 				)
 			)
@@ -6205,7 +7257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f041ca6-8440-4fda-a52b-77f019ffb695")
-		(property "Reference" "D6"
+		(property "Reference" "D203"
 			(at 219.71 83.82 90)
 			(effects
 				(font
@@ -6311,7 +7363,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "D6")
+					(reference "D203")
 					(unit 1)
 				)
 			)
@@ -6327,7 +7379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b033886-474d-406b-9336-e1c50ebd7550")
-		(property "Reference" "R15"
+		(property "Reference" "R202"
 			(at 161.29 72.39 90)
 			(effects
 				(font
@@ -6444,7 +7496,70 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "R15")
+					(reference "R202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:GNDA")
+		(at 212.09 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b9b48a0-0f9a-4441-8a7c-526236b4d12a")
+		(property "Reference" "#PWR0206"
+			(at 212.09 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 215.646 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 211.582 73.406 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a29d88af-8405-411a-9bd5-54dfeb0710ff")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -6459,7 +7574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bd6bdce-75a3-4459-b546-0bf8eeb0aa9c")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG0201"
 			(at 207.01 55.88 0)
 			(effects
 				(font
@@ -6507,14 +7622,77 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#FLG04")
+					(reference "#FLG0201")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:3.3V")
+		(lib_id "Power_Port:GNDA")
+		(at 111.76 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fac4aca-7a7d-4f6c-9b5f-ab12483c0863")
+		(property "Reference" "#PWR0216"
+			(at 111.76 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 115.316 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.252 143.256 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "345122e9-031c-4f8e-9aeb-cfe34edcae8e")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:3.3VA")
 		(at 214.63 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6522,7 +7700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72addc6c-ecb6-404b-96ba-e0e6f8fb459b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0201"
 			(at 214.63 57.15 0)
 			(effects
 				(font
@@ -6531,7 +7709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "3.3VA"
 			(at 214.376 49.784 0)
 			(effects
 				(font
@@ -6570,112 +7748,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connectors:1935161")
-		(at 63.5 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "745e60ff-2b8d-47e5-9f4b-c95add485be4")
-		(property "Reference" "J3"
-			(at 61.595 54.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1935161"
-			(at 63.5 69.088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connectors:1935161"
-			(at 63.5 84.074 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf"
-			(at 63.5 85.344 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TERM BLOCK PCB 2POS 5.0MM GREEN"
-			(at 63.5 81.534 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 63.5 73.914 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "277-1667-ND"
-			(at 63.5 71.374 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Phoenix Contact"
-			(at 63.5 76.454 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "1935161"
-			(at 63.5 78.994 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "87b1a921-15e6-4755-a9e2-6aa29366bb61")
-		)
-		(pin "1"
-			(uuid "4c54cc3a-e63c-421c-a022-7a94a83bdbc6")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "J3")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -6691,7 +7764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75582fb3-6b10-44af-b46d-002be08d89b2")
-		(property "Reference" "D4"
+		(property "Reference" "D201"
 			(at 102.87 83.82 90)
 			(effects
 				(font
@@ -6797,23 +7870,111 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "D4")
+					(reference "D201")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:DGND")
-		(at 179.07 73.66 0)
+		(lib_id "Capacitors:885012107014")
+		(at 162.56 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8a0a18f4-1501-4d10-bd44-848a35c7b022")
-		(property "Reference" "#PWR036"
-			(at 179.07 77.978 0)
+		(uuid "8464a591-9f2e-41cc-ac17-3948a26b5c81")
+		(property "Reference" "C207"
+			(at 156.845 134.62 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "885012107014"
+			(at 171.45 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitors:C0805"
+			(at 186.69 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "D"
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 16V X5R 0805"
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 173.99 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "732-7624-1-ND"
+			(at 176.53 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics Inc."
+			(at 179.07 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "885012007027"
+			(at 181.61 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance (Farad)" "10µF"
+			(at 156.845 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance (%)" "±20%"
+			(at 165.608 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,32 +7982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DGND"
-			(at 179.07 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 71.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 178.562 75.946 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 73.66 0)
+		(property "Voltage Rated (Volt)" "16V"
+			(at 167.386 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,75 +7992,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "702c6104-c679-4952-9849-dd97c9406f25")
+			(uuid "ebf41a06-ed9f-432e-a05e-f12476d28917")
+		)
+		(pin "2"
+			(uuid "fbc7da09-13c4-4840-b05b-1e37bf7797a8")
 		)
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Port:DGND")
-		(at 224.79 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f39b8ef-ae7f-4413-8149-92dfaa49a41e")
-		(property "Reference" "#PWR040"
-			(at 224.79 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 224.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.282 96.266 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b58befeb-31c4-4cbb-8141-3829f51d4d34")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR040")
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -6939,7 +8016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91dd1341-0902-4765-9f1e-dcf5f5a995a8")
-		(property "Reference" "R14"
+		(property "Reference" "R201"
 			(at 110.49 72.39 90)
 			(effects
 				(font
@@ -7056,7 +8133,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "R14")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -7071,7 +8148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b447525-9b02-443e-b90f-cb6aaf48a34f")
-		(property "Reference" "TP3"
+		(property "Reference" "TP204"
 			(at 171.45 47.625 90)
 			(effects
 				(font
@@ -7157,70 +8234,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Port:DGND")
-		(at 133.35 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ff7dce3-bd83-45b5-9b06-2d11be17be19")
-		(property "Reference" "#PWR032"
-			(at 133.35 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 133.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 73.66 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.842 78.486 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9a0e214-54d4-4f85-9877-3896fb39817e")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR032")
+					(reference "TP204")
 					(unit 1)
 				)
 			)
@@ -7235,7 +8249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a66e78e4-1485-4c19-81cd-01dbda6dfe37")
-		(property "Reference" "TP5"
+		(property "Reference" "TP202"
 			(at 245.11 45.085 90)
 			(effects
 				(font
@@ -7321,7 +8335,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP5")
+					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -7336,7 +8350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7154041-25aa-4f18-b459-9c4ea70659cd")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG0205"
 			(at 125.73 71.12 0)
 			(effects
 				(font
@@ -7384,78 +8398,15 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#FLG02")
+					(reference "#FLG0205")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:DGND")
-		(at 66.04 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9e4859e-bdf2-48b3-9bf8-a38f417cade1")
-		(property "Reference" "#PWR0202"
-			(at 66.04 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 66.04 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 121.92 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 65.532 126.746 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65aa463e-c7b7-4df0-9e4b-ae5a544ef36a")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR0202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Port:12V")
-		(at 66.04 115.57 0)
+		(lib_id "Power_Port:12VA")
+		(at 111.76 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7463,8 +8414,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab433916-ac87-4b98-a6e7-0352882b4e81")
-		(property "Reference" "#PWR0201"
-			(at 66.04 119.38 0)
+		(property "Reference" "#PWR0215"
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,8 +8423,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12V"
-			(at 66.04 110.49 0)
+		(property "Value" "12VA"
+			(at 111.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +8432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 115.57 0)
+			(at 111.76 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7489,7 +8440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 115.57 0)
+			(at 111.76 132.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7497,7 +8448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 115.57 0)
+			(at 111.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7511,7 +8462,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR0201")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -7526,7 +8477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af870197-5084-4ccc-b517-618bd5f4817f")
-		(property "Reference" "C15"
+		(property "Reference" "C202"
 			(at 112.395 63.5 90)
 			(effects
 				(font
@@ -7641,7 +8592,70 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "C15")
+					(reference "C202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:GNDB")
+		(at 195.58 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8b6c3da-badd-4ddc-b345-6028b160c6ca")
+		(property "Reference" "#PWR0219"
+			(at 195.58 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDB"
+			(at 199.136 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 139.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.072 144.526 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c2cae73-ebe4-406f-8244-3eb3cbb90f88")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -7657,7 +8671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc8fd084-51ca-4331-adb8-2fead0ad7354")
-		(property "Reference" "R16"
+		(property "Reference" "R203"
 			(at 227.33 72.39 90)
 			(effects
 				(font
@@ -7774,14 +8788,14 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "R16")
+					(reference "R203")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:5V")
+		(lib_id "Power_Port:5VA")
 		(at 158.75 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7789,7 +8803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c04b885b-4a41-4422-9eb0-dec403193cfa")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0204"
 			(at 158.75 59.69 0)
 			(effects
 				(font
@@ -7798,7 +8812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5VA"
 			(at 158.496 52.324 0)
 			(effects
 				(font
@@ -7837,7 +8851,133 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR034")
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:GNDB")
+		(at 162.56 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0f164e0-699b-425b-84aa-36bd0b10a3f4")
+		(property "Reference" "#PWR0220"
+			(at 162.56 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDB"
+			(at 166.116 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.052 147.066 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "319f14d9-f640-47a7-b20a-efe4e59d24d3")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:GNDA")
+		(at 224.79 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c25b8a66-e19a-4fed-9518-a5797e576059")
+		(property "Reference" "#PWR0212"
+			(at 224.79 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 228.346 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.282 96.266 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5eaa118-aec9-4c1a-bc54-75d361d65119")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -7853,7 +8993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce5e5606-c5ba-47da-bce3-f04cf6180acd")
-		(property "Reference" "D5"
+		(property "Reference" "D202"
 			(at 153.67 83.82 90)
 			(effects
 				(font
@@ -7959,7 +9099,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "D5")
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -7974,7 +9114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf470c90-5f2c-45e0-a3ea-645f1a2290fe")
-		(property "Reference" "J5"
+		(property "Reference" "J201"
 			(at 229.87 45.72 90)
 			(effects
 				(font
@@ -8063,22 +9203,185 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "J5")
+					(reference "J201")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:DGND")
+		(lib_id "PMIC:AZ1117IH-3.3TRG1")
+		(at 175.26 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8079b93-b9a8-4ef7-bb9c-ece3b2be4567")
+		(property "Reference" "U203"
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ1117IH-3.3TRG1"
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "IC:SOT-223-3"
+			(at 175.26 175.387 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117I.pdf"
+			(at 175.26 177.927 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG LDO 3.3V 0.8A SOT223"
+			(at 175.26 172.847 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 175.26 162.687 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "AZ1117IH-3.3TRG1DICT-ND"
+			(at 175.26 165.227 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 175.26 167.767 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AZ1117IH-3.3TRG1"
+			(at 175.26 170.307 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Regulator Topology" "Linear"
+			(at 175.387 145.923 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - Output" "3.3V"
+			(at 175.133 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current - Output" "800mA"
+			(at 175.387 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - Dropout (Typical)" "1.2V @ 800mA"
+			(at 175.514 153.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - Input" "Up to 15V"
+			(at 175.006 157.861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current - Limit (Min)" "800mA"
+			(at 175.006 159.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8c4cf29-9978-4acc-93d8-b83ba3ae018a")
+		)
+		(pin "2"
+			(uuid "4eaf486a-f65f-46d2-a15c-17e9cc766e49")
+		)
+		(pin "3"
+			(uuid "6eb51591-7c3f-4591-be3d-7a6e439587e2")
+		)
+		(pin "4"
+			(uuid "d49b1851-65da-4b0d-917d-05c4c6347599")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "U203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:GNDA")
 		(at 107.95 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0ed3b2e-f894-418c-a9fd-6ea5596e79dd")
-		(property "Reference" "#PWR031"
+		(uuid "ddf6c654-2263-4dc2-b1a0-d37a463fe14d")
+		(property "Reference" "#PWR0210"
 			(at 107.95 98.298 0)
 			(effects
 				(font
@@ -8087,8 +9390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DGND"
-			(at 107.95 96.52 0)
+		(property "Value" "GNDA"
+			(at 111.506 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,12 +9424,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "77aab3ef-460d-43a8-8264-2e9ee6978d53")
+			(uuid "0fb1ef11-1a50-46c6-8d12-82026ab53940")
 		)
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR031")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -8142,7 +9445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1311a8d-bdf0-46e1-a8ca-6fc3ad7356fb")
-		(property "Reference" "F2"
+		(property "Reference" "F201"
 			(at 96.52 52.5526 0)
 			(effects
 				(font
@@ -8266,7 +9569,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "F2")
+					(reference "F201")
 					(unit 1)
 				)
 			)
@@ -8281,7 +9584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e22e7a09-4513-4afa-b7a8-adfcfc615f27")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG0204"
 			(at 163.83 58.42 0)
 			(effects
 				(font
@@ -8329,22 +9632,148 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#FLG03")
+					(reference "#FLG0204")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:DGND")
+		(lib_id "Power_Port:GNDA")
+		(at 133.35 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e80c3f36-cb22-48bc-8cd2-8dafb65a443f")
+		(property "Reference" "#PWR0208"
+			(at 133.35 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 136.906 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.842 78.486 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeb84c18-b969-4b40-9bfb-1eaa38673197")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:GNDA")
+		(at 158.75 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec5e5198-d145-4070-944b-c1b5abb3f153")
+		(property "Reference" "#PWR0211"
+			(at 158.75 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 162.306 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.242 96.266 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "469e2c72-b838-457c-b213-72444dbd6838")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Port:GNDA")
 		(at 191.77 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e879ff99-e5f3-4da5-b0c7-1e1fd5778e36")
-		(property "Reference" "#PWR037"
+		(uuid "ed03bad3-bd05-48f8-ae90-15068e13aa5c")
+		(property "Reference" "#PWR0205"
 			(at 191.77 75.438 0)
 			(effects
 				(font
@@ -8353,8 +9782,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DGND"
-			(at 191.77 73.66 0)
+		(property "Value" "GNDA"
+			(at 195.326 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,28 +9816,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "dea462e4-f967-486e-bd92-72ff32cf43c8")
+			(uuid "cf956c47-42a5-4b10-9d99-c0c71979d977")
 		)
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR037")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:AGND")
-		(at 100.33 124.46 0)
+		(lib_id "Power_Port:GNDA")
+		(at 179.07 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eb89f365-b237-4fcb-8fb0-60c18f4a82e1")
-		(property "Reference" "#PWR0204"
-			(at 100.33 128.778 0)
+		(uuid "f064e809-135e-4994-97ae-4a184b9d93db")
+		(property "Reference" "#PWR0207"
+			(at 179.07 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8416,8 +9845,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
-			(at 103.886 126.492 0)
+		(property "Value" "GNDA"
+			(at 182.626 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8425,7 +9854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 121.92 0)
+			(at 179.07 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8433,7 +9862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.822 126.746 0)
+			(at 178.562 75.946 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8441,7 +9870,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 124.46 0)
+			(at 179.07 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8450,28 +9879,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "21fbaf1c-ba70-4af3-b791-021fbec6117e")
+			(uuid "0c530b74-09b0-4026-9cb1-3e2cbd8652ab")
 		)
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR0204")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:DGND")
-		(at 67.31 66.04 0)
+		(lib_id "Power_Port:3.3VB")
+		(at 195.58 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f7cfd308-b085-4efc-836b-a0f6f9343cbc")
-		(property "Reference" "#PWR028"
-			(at 67.31 70.358 0)
+		(fields_autoplaced yes)
+		(uuid "f5cd2854-5538-465b-9395-639168cd714d")
+		(property "Reference" "#PWR0214"
+			(at 195.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8479,8 +9909,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DGND"
-			(at 67.564 68.834 0)
+		(property "Value" "3.3VB"
+			(at 195.58 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,7 +9918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 63.5 0)
+			(at 195.58 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8496,7 +9926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.802 68.326 0)
+			(at 195.58 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8504,7 +9934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 66.04 0)
+			(at 195.58 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,12 +9943,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc8b3d92-b90b-4d92-a6bc-1f0c1c32cbc3")
+			(uuid "9c673dcc-10e4-4a2c-9324-647687502a6a")
 		)
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR028")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -8533,7 +9963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc17909e-23ff-46e1-9035-b7055a18be15")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG0202"
 			(at 250.19 55.88 0)
 			(effects
 				(font
@@ -8581,7 +10011,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#FLG05")
+					(reference "#FLG0202")
 					(unit 1)
 				)
 			)

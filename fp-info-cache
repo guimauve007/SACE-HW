@@ -1,4 +1,4 @@
-505359478831308
+510507610682186
 Assembly
 1812L07533
 
@@ -497,6 +497,20 @@ CT3149-X
 1
 1
 Connectors
+CUI_PJ-047AH
+
+
+0
+5
+4
+Connectors
+CUI_PJ-082BH
+
+
+0
+6
+3
+Connectors
 C_MALE_VERTICAL_HEADER_2.54_WR-WTB
 
 
@@ -748,6 +762,13 @@ PAD_TH_0.9mm
 0
 1
 1
+Connectors
+RF101KD0050
+RF1-01A-D-00-75-M-2
+Connector
+0
+4
+4
 Connectors
 Solder_bridge_0805
 

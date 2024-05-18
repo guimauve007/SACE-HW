@@ -937,8 +937,8 @@
 		(uuid "fcbe29dd-28c0-41a3-8cea-8f7fd9d83acf")
 	)
 	(sheet
-		(at 143.51 27.94)
-		(size 22.86 15.24)
+		(at 158.75 32.385)
+		(size 19.685 9.525)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -949,7 +949,7 @@
 		)
 		(uuid "0f8b1d52-3451-4d91-9a0f-fc5eea3d9449")
 		(property "Sheetname" "LV_PSU"
-			(at 143.51 27.2284 0)
+			(at 158.75 31.6734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +958,7 @@
 			)
 		)
 		(property "Sheetfile" "LV_PSU.kicad_sch"
-			(at 143.51 43.7646 0)
+			(at 158.75 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,8 +1433,8 @@
 		)
 	)
 	(sheet
-		(at 143.51 71.755)
-		(size 22.86 14.605)
+		(at 158.75 66.04)
+		(size 20.32 8.89)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1445,7 +1445,7 @@
 		)
 		(uuid "89fdb234-fe30-4f1f-ac7b-866137add73a")
 		(property "Sheetname" "Acquisition"
-			(at 143.51 71.0434 0)
+			(at 158.75 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1454,7 @@
 			)
 		)
 		(property "Sheetfile" "Acquisition.kicad_sch"
-			(at 143.51 86.9446 0)
+			(at 158.75 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,8 +1471,8 @@
 		)
 	)
 	(sheet
-		(at 143.51 93.98)
-		(size 22.86 14.605)
+		(at 159.385 82.55)
+		(size 19.685 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1483,7 +1483,7 @@
 		)
 		(uuid "9ebd2496-8213-4575-b78a-e0103001acbf")
 		(property "Sheetname" "USB_Serial"
-			(at 143.51 93.2684 0)
+			(at 159.385 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,13 +1492,53 @@
 			)
 		)
 		(property "Sheetfile" "USB_Serial.kicad_sch"
-			(at 143.51 109.1696 0)
+			(at 159.385 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "UART_TX" output
+			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99b742c4-ea9e-414a-96e5-dd28f229600d")
+		)
+		(pin "UART_RX" input
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ccfa5e6f-330d-4116-bde5-4cf2771007ba")
+		)
+		(pin "SCL" bidirectional
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3f3a7dfe-4726-45a2-986f-655cf1d3748e")
+		)
+		(pin "SDA" bidirectional
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92f02f3b-1a3f-4802-9c93-a8b96f7db768")
 		)
 		(instances
 			(project "SACE-HW"
@@ -1509,8 +1549,8 @@
 		)
 	)
 	(sheet
-		(at 143.51 49.53)
-		(size 22.86 15.24)
+		(at 158.75 48.26)
+		(size 19.685 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1521,7 +1561,7 @@
 		)
 		(uuid "bda9c1af-9e39-4d1c-9beb-c58cbb11e7a4")
 		(property "Sheetname" "HV"
-			(at 143.51 48.8184 0)
+			(at 158.75 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1570,7 @@
 			)
 		)
 		(property "Sheetfile" "HV.kicad_sch"
-			(at 143.51 65.3546 0)
+			(at 158.75 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1579,7 @@
 			)
 		)
 		(pin "gate_drive" input
-			(at 166.37 52.705 0)
+			(at 178.435 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,6 +1587,16 @@
 				(justify right)
 			)
 			(uuid "3701aae4-0219-428a-96d6-73233bedb4b3")
+		)
+		(pin "current_sense" output
+			(at 178.435 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98425e42-9816-4ea9-bb01-7dd1a6b51016")
 		)
 		(instances
 			(project "SACE-HW"
