@@ -4249,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 138.43) (xy 111.76 135.89)
+			(xy 111.76 140.97) (xy 111.76 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4269,7 +4269,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 138.43) (xy 146.05 137.16)
+			(xy 146.05 140.97) (xy 146.05 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4449,7 +4449,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 137.16) (xy 175.26 139.7)
+			(xy 175.26 137.16) (xy 175.26 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4679,7 +4679,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 139.7) (xy 162.56 142.24)
+			(xy 162.56 139.7) (xy 162.56 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4989,7 +4989,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 137.16) (xy 195.58 139.7)
+			(xy 195.58 137.16) (xy 195.58 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5175,9 +5175,9 @@
 		)
 		(uuid "74c49c5c-64f8-4b63-b736-7a7a5fabbde4")
 	)
-	(text "TODO: REPLACE WITH RS3E-1205S/H3"
+	(text "TODO: REPLACE WITH RS3E-1205S/H3 si nécéssaire"
 		(exclude_from_sim no)
-		(at 131.064 151.892 0)
+		(at 127 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5339,7 +5339,7 @@
 	)
 	(symbol
 		(lib_id "Power_Port:GNDB")
-		(at 146.05 140.97 0)
+		(at 146.05 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5347,7 +5347,7 @@
 		(dnp no)
 		(uuid "0bdffd82-5f84-44eb-82d1-d3fffa973ae0")
 		(property "Reference" "#PWR0217"
-			(at 146.05 145.288 0)
+			(at 146.05 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5356,7 @@
 			)
 		)
 		(property "Value" "GNDB"
-			(at 149.606 143.256 0)
+			(at 149.606 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 138.43 0)
+			(at 146.05 140.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5372,7 +5372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 145.542 143.256 0)
+			(at 145.542 145.796 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5380,7 +5380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 140.97 0)
+			(at 146.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +6930,7 @@
 	)
 	(symbol
 		(lib_id "Power_Port:GNDB")
-		(at 175.26 142.24 0)
+		(at 175.26 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6938,7 +6938,7 @@
 		(dnp no)
 		(uuid "5014c854-fbf7-49ab-b741-172f759af8ef")
 		(property "Reference" "#PWR0218"
-			(at 175.26 146.558 0)
+			(at 175.26 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +6947,7 @@
 			)
 		)
 		(property "Value" "GNDB"
-			(at 178.816 144.526 0)
+			(at 178.816 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,7 +6955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 139.7 0)
+			(at 175.26 140.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6963,7 +6963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 174.752 144.526 0)
+			(at 174.752 145.796 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6971,7 +6971,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 142.24 0)
+			(at 175.26 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7630,7 +7630,7 @@
 	)
 	(symbol
 		(lib_id "Power_Port:GNDA")
-		(at 111.76 140.97 0)
+		(at 111.76 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7638,7 +7638,7 @@
 		(dnp no)
 		(uuid "6fac4aca-7a7d-4f6c-9b5f-ab12483c0863")
 		(property "Reference" "#PWR0216"
-			(at 111.76 145.288 0)
+			(at 111.76 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7647,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 115.316 143.51 0)
+			(at 115.316 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7655,7 +7655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 138.43 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7663,7 +7663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.252 143.256 0)
+			(at 111.252 145.796 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7671,7 +7671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 140.97 0)
+			(at 111.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,7 +8600,7 @@
 	)
 	(symbol
 		(lib_id "Power_Port:GNDB")
-		(at 195.58 142.24 0)
+		(at 195.58 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8608,7 +8608,7 @@
 		(dnp no)
 		(uuid "b8b6c3da-badd-4ddc-b345-6028b160c6ca")
 		(property "Reference" "#PWR0219"
-			(at 195.58 146.558 0)
+			(at 195.58 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8617,7 @@
 			)
 		)
 		(property "Value" "GNDB"
-			(at 199.136 144.526 0)
+			(at 199.136 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +8625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 139.7 0)
+			(at 195.58 140.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8633,7 +8633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.072 144.526 0)
+			(at 195.072 145.796 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8641,7 +8641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 142.24 0)
+			(at 195.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8859,7 +8859,7 @@
 	)
 	(symbol
 		(lib_id "Power_Port:GNDB")
-		(at 162.56 144.78 0)
+		(at 162.56 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8867,7 +8867,7 @@
 		(dnp no)
 		(uuid "c0f164e0-699b-425b-84aa-36bd0b10a3f4")
 		(property "Reference" "#PWR0220"
-			(at 162.56 149.098 0)
+			(at 162.56 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8876,7 @@
 			)
 		)
 		(property "Value" "GNDB"
-			(at 166.116 147.066 0)
+			(at 166.116 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +8884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 142.24 0)
+			(at 162.56 140.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8892,7 +8892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.052 147.066 0)
+			(at 162.052 145.796 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8900,7 +8900,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 144.78 0)
+			(at 162.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

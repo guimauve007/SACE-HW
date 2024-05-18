@@ -1549,8 +1549,8 @@
 		)
 	)
 	(sheet
-		(at 158.75 48.26)
-		(size 19.685 10.16)
+		(at 158.75 47.625)
+		(size 20.32 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1561,7 +1561,7 @@
 		)
 		(uuid "bda9c1af-9e39-4d1c-9beb-c58cbb11e7a4")
 		(property "Sheetname" "HV"
-			(at 158.75 47.5484 0)
+			(at 158.75 46.9134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1570,7 @@
 			)
 		)
 		(property "Sheetfile" "HV.kicad_sch"
-			(at 158.75 59.0046 0)
+			(at 158.75 60.9096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1579,7 @@
 			)
 		)
 		(pin "gate_drive" input
-			(at 178.435 51.435 0)
+			(at 179.07 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +1589,7 @@
 			(uuid "3701aae4-0219-428a-96d6-73233bedb4b3")
 		)
 		(pin "current_sense" output
-			(at 178.435 54.61 0)
+			(at 179.07 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,6 +1597,26 @@
 				(justify right)
 			)
 			(uuid "98425e42-9816-4ea9-bb01-7dd1a6b51016")
+		)
+		(pin "pulse_gate" input
+			(at 179.07 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9a6968e-74f6-4669-bf71-a70fd1419aa9")
+		)
+		(pin "boost_gate" input
+			(at 179.07 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9aff59c1-8904-47a0-b3dd-6b84fc37f1e5")
 		)
 		(instances
 			(project "SACE-HW"
