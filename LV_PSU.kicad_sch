@@ -4126,10 +4126,22 @@
 		(uuid "597a2d52-c050-4aeb-9323-aa4b861c3f78")
 	)
 	(junction
+		(at 186.69 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e430fa9-4e46-4f46-946c-74592014725a")
+	)
+	(junction
 		(at 85.09 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69691dea-2612-4aa5-8ed6-9345c460de22")
+	)
+	(junction
+		(at 175.26 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cfcd850-6011-46db-8096-f9a9c47dcb22")
 	)
 	(junction
 		(at 118.11 71.12)
@@ -4202,6 +4214,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfa5f325-aeb4-466e-9bbc-d9f8a57da681")
+	)
+	(junction
+		(at 195.58 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0ccaedf-eefe-4deb-96c8-6af4a35a91c1")
 	)
 	(junction
 		(at 171.45 58.42)
@@ -4346,6 +4364,16 @@
 			(type default)
 		)
 		(uuid "1ec1a6b8-0436-4d2e-b8f4-04656a4d3b53")
+	)
+	(wire
+		(pts
+			(xy 175.26 140.97) (xy 186.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f25228f-3673-4db3-a5bd-90e7fb5490fd")
 	)
 	(wire
 		(pts
@@ -5049,6 +5077,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 140.97) (xy 195.58 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef51a309-48a5-4f4d-99aa-623b92b33316")
+	)
+	(wire
+		(pts
 			(xy 179.07 60.96) (xy 179.07 58.42)
 		)
 		(stroke
@@ -5175,16 +5213,6 @@
 		)
 		(uuid "74c49c5c-64f8-4b63-b736-7a7a5fabbde4")
 	)
-	(text "TODO: REPLACE WITH RS3E-1205S/H3 si nécéssaire"
-		(exclude_from_sim no)
-		(at 127 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "57ff524d-d905-4fe4-85f4-02ce86e8662a")
-	)
 	(text "12V IN"
 		(exclude_from_sim no)
 		(at 109.22 46.99 0)
@@ -5217,17 +5245,6 @@
 			(justify left bottom)
 		)
 		(uuid "ae42c1ce-a55c-4ac6-8a4c-013b8c3d2a30")
-	)
-	(text "DGND"
-		(exclude_from_sim no)
-		(at 114.935 85.09 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "cdbba3bf-3cd5-4409-9eaf-bffe8aed8cb1")
 	)
 	(symbol
 		(lib_id "Connectors:PJ-082BH")
@@ -5472,10 +5489,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10e69cb7-15c5-40ca-a2e8-fd6d1a1f7f88")
 		(property "Reference" "IC201"
-			(at 128.905 119.38 0)
+			(at 129.032 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5499,7 @@
 			)
 		)
 		(property "Value" "1769205241"
-			(at 128.905 121.92 0)
+			(at 129.032 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,6 +5592,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Supplier" "Digikey"
@@ -5584,6 +5601,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5798,6 +5816,107 @@
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
 					(reference "C203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors:Test_Point_THM")
+		(at 186.69 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "187b5999-2446-4619-8859-ae958a114177")
+		(property "Reference" "TP206"
+			(at 186.69 149.225 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Test_Point_THM"
+			(at 194.31 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connectors:Keystone_5001"
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://keyelco.com/userAssets/file/M65p56.pdf"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEST POINT PC MINI .040\"D BLACK"
+			(at 207.01 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 196.85 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "36-5001-ND"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "5001"
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b6a844d-fc5a-4069-a9be-6f0140b7bbb9")
+		)
+		(instances
+			(project "SACE-HW"
+				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
+					(reference "TP206")
 					(unit 1)
 				)
 			)
@@ -6937,7 +7056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5014c854-fbf7-49ab-b741-172f759af8ef")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0219"
 			(at 175.26 147.828 0)
 			(effects
 				(font
@@ -6985,7 +7104,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR0218")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -8607,7 +8726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8b6c3da-badd-4ddc-b345-6028b160c6ca")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0220"
 			(at 195.58 147.828 0)
 			(effects
 				(font
@@ -8655,7 +8774,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR0219")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0f164e0-699b-425b-84aa-36bd0b10a3f4")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0218"
 			(at 162.56 147.828 0)
 			(effects
 				(font
@@ -8914,7 +9033,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "#PWR0220")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)

@@ -755,6 +755,16 @@
 		)
 		(uuid "a8455bf9-b106-4a3d-bce6-3fd31a236a5d")
 	)
+	(text "TODO: Ajouter \nisolation ici"
+		(exclude_from_sim no)
+		(at 147.828 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1734ee82-f70c-41be-988c-d80c56ba2719")
+	)
 	(text "TODO: TVS ici?? + term. res?"
 		(exclude_from_sim no)
 		(at 136.652 81.534 0)
@@ -777,7 +787,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
-		(at 154.94 74.93 180)
+		(at 139.7 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -813,7 +823,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 154.94 77.47 180)
+		(at 139.7 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
