@@ -1482,7 +1482,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "89fdb234-fe30-4f1f-ac7b-866137add73a")
-		(property "Sheetname" "GPIO"
+		(property "Sheetname" "5V_LOGIC_I2C"
 			(at 167.64 64.6934 0)
 			(effects
 				(font
@@ -1491,7 +1491,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "GPIO.kicad_sch"
+		(property "Sheetfile" "5V_LOGIC_I2C.kicad_sch"
 			(at 167.64 76.7846 0)
 			(effects
 				(font
@@ -1500,25 +1500,25 @@
 				(justify left top)
 			)
 		)
-		(pin "SCL" bidirectional
-			(at 185.42 69.215 0)
+		(pin "SCL_3_3" bidirectional
+			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2f11e916-3bfa-4594-9557-12afa6eb5e0e")
+			(uuid "a52beb3f-54db-4891-95a8-8668347a0e14")
 		)
-		(pin "SDA" bidirectional
-			(at 185.42 71.755 0)
+		(pin "SDA_3_3" bidirectional
+			(at 185.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8ef73442-ecf1-4a92-a6ba-6edd107fd86b")
+			(uuid "280a1c7e-9884-4f32-94bc-c20b0208dc49")
 		)
 		(instances
 			(project "SACE-HW"
