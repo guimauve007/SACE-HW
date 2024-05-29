@@ -1101,7 +1101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6d15b56-7096-40a2-a137-1f2e50f2634d")
-		(property "Reference" "J701"
+		(property "Reference" "J15"
 			(at 167.64 78.7399 0)
 			(effects
 				(font
@@ -1211,7 +1211,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "J701")
+					(reference "J15")
 					(unit 1)
 				)
 			)

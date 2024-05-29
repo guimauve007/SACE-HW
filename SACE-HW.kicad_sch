@@ -975,7 +975,7 @@
 		)
 	)
 	(sheet
-		(at 167.64 113.03)
+		(at 167.64 124.46)
 		(size 17.78 18.415)
 		(fields_autoplaced yes)
 		(stroke
@@ -987,7 +987,7 @@
 		)
 		(uuid "114a8538-54a0-4526-bfdc-fea8737f7836")
 		(property "Sheetname" "Stepper_Control"
-			(at 167.64 112.3184 0)
+			(at 167.64 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,7 +996,7 @@
 			)
 		)
 		(property "Sheetfile" "Stepper_Control.kicad_sch"
-			(at 167.64 132.0296 0)
+			(at 167.64 143.4596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1472,7 @@
 	)
 	(sheet
 		(at 167.64 65.405)
-		(size 17.78 10.795)
+		(size 17.78 9.525)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1482,7 +1482,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "89fdb234-fe30-4f1f-ac7b-866137add73a")
-		(property "Sheetname" "5V_LOGIC_I2C"
+		(property "Sheetname" "I2C"
 			(at 167.64 64.6934 0)
 			(effects
 				(font
@@ -1491,8 +1491,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "5V_LOGIC_I2C.kicad_sch"
-			(at 167.64 76.7846 0)
+		(property "Sheetfile" "I2C.kicad_sch"
+			(at 167.64 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,17 +1500,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SCL_3_3" bidirectional
-			(at 185.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a52beb3f-54db-4891-95a8-8668347a0e14")
-		)
-		(pin "SDA_3_3" bidirectional
+		(pin "SDA" bidirectional
 			(at 185.42 68.58 0)
 			(effects
 				(font
@@ -1518,7 +1508,17 @@
 				)
 				(justify right)
 			)
-			(uuid "280a1c7e-9884-4f32-94bc-c20b0208dc49")
+			(uuid "875fe642-0a9b-43d7-84f3-40da5fae7a32")
+		)
+		(pin "SCL" bidirectional
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78063a94-9d50-4e84-8e9f-eb030b4facc3")
 		)
 		(instances
 			(project "SACE-HW"
@@ -1530,7 +1530,7 @@
 	)
 	(sheet
 		(at 167.64 83.82)
-		(size 17.78 20.32)
+		(size 17.78 30.48)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1550,7 +1550,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_Serial.kicad_sch"
-			(at 167.64 104.7246 0)
+			(at 167.64 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1579,7 @@
 			(uuid "ccfa5e6f-330d-4116-bde5-4cf2771007ba")
 		)
 		(pin "SCL" bidirectional
-			(at 185.42 96.52 0)
+			(at 185.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +1589,7 @@
 			(uuid "3f3a7dfe-4726-45a2-986f-655cf1d3748e")
 		)
 		(pin "SDA" bidirectional
-			(at 185.42 99.06 0)
+			(at 185.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,6 +1597,36 @@
 				(justify right)
 			)
 			(uuid "92f02f3b-1a3f-4802-9c93-a8b96f7db768")
+		)
+		(pin "USB_ID" bidirectional
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1284d94e-cd0e-41df-a75c-99327eb9420d")
+		)
+		(pin "RST_" input
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3974cd9-fa38-4664-b9a1-a0e29fcff2b4")
+		)
+		(pin "USB_VBUS" bidirectional
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f0572a4-ceb2-4ab2-8e30-0122e51d8c15")
 		)
 		(instances
 			(project "SACE-HW"
