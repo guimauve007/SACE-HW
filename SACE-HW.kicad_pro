@@ -785,7 +785,15 @@
     ],
     [
       "114a8538-54a0-4526-bfdc-fea8737f7836",
-      "Stepper_Control"
+      "5V_OUTPUT"
+    ],
+    [
+      "6b453246-6ae6-4c73-99ea-9f79a5f14ff1",
+      "SD_CARD"
+    ],
+    [
+      "ecf6379d-9051-40fb-9a00-bdc641729807",
+      "POWER_CTRL"
     ]
   ],
   "text_variables": {}
