@@ -618,146 +618,6 @@
 				)
 			)
 		)
-		(symbol "Connectors:Solder_Bridge"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SB"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "Solder_Bridge"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Connectors:Solder_bridge_0805"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "D"
-				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Bridge"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "N/A"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number" "N/A"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "N/A"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "N/A"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Solder_Bridge_0_1"
-				(arc
-					(start 2.54 0.635)
-					(mid 0 2.2048)
-					(end -2.54 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Solder_Bridge_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diodes:150080VS75000"
 			(pin_numbers hide)
 			(pin_names
@@ -1515,6 +1375,124 @@
 				)
 			)
 		)
+		(symbol "Power_Port:5VB"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "5VB"
+				(at -0.254 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "POWER, PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5VB_0_1"
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 1.778 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5VB_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "5VB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Power_Port:GNDB"
 			(power)
 			(pin_numbers hide)
@@ -1617,124 +1595,6 @@
 					(at 0 2.54 90)
 					(length 0) hide
 					(name "GNDB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Power_Port:VDD"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at -0.254 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "POWER, PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 1.778 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1940,6 +1800,195 @@
 				)
 			)
 		)
+		(symbol "Resistors:RC0805JR-07470RL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "RC0805JR-07470RL"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Resistors:R0805"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 470 OHM 5% 1/8W 0805"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digikey"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number" "311-470ARCT-ND"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "RC0805JR-07470RL"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance (Ohms)" "470"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance (%)" "±5%"
+				(at 10.414 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Puissance (Watts)" "1/8W"
+				(at 0 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0805JR-07470RL_0_1"
+				(rectangle
+					(start -3.048 0)
+					(end -3.81 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 0) (xy -2.54 0.762) (xy -2.032 0) (xy -1.524 -0.762) (xy -1.016 0) (xy -0.508 0.762)
+						(xy 0 0) (xy 0.508 -0.762) (xy 1.016 0) (xy 1.524 0.762) (xy 2.032 0) (xy 2.54 -0.762) (xy 3.048 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0)
+					(end 3.048 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RC0805JR-07470RL_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 148.59 54.61)
@@ -1948,16 +1997,14 @@
 		(uuid "0fbbc897-eed5-48af-a73b-e8584d4e72a7")
 	)
 	(junction
-		(at 100.33 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99908e75-c85d-4604-ab56-d3daf918f905")
-	)
-	(junction
 		(at 86.36 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f41b4c1c-27d5-4039-a8b8-7cd57420cbed")
+	)
+	(no_connect
+		(at 83.82 93.98)
+		(uuid "2192464e-e369-4cf1-babd-87dbb8ffc870")
 	)
 	(wire
 		(pts
@@ -2021,26 +2068,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 100.33 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "209a1ace-b6de-4cbc-8250-5e38e62a295d")
-	)
-	(wire
-		(pts
-			(xy 119.38 107.95) (xy 113.03 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c0a45e-e252-42a4-a329-83bccdb54533")
-	)
-	(wire
-		(pts
 			(xy 142.24 68.58) (xy 142.24 54.61)
 		)
 		(stroke
@@ -2048,36 +2075,6 @@
 			(type default)
 		)
 		(uuid "256db72d-ed4d-438f-8a2d-f89d39e27196")
-	)
-	(wire
-		(pts
-			(xy 100.33 93.98) (xy 100.33 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "259945a1-536f-4219-8a38-dc52be6fe6ef")
-	)
-	(wire
-		(pts
-			(xy 119.38 115.57) (xy 113.03 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b5b94ce-89eb-4c48-97e9-ebf69daf119f")
-	)
-	(wire
-		(pts
-			(xy 119.38 118.11) (xy 119.38 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "309a1a73-06f1-4460-859f-8f7b22a35dff")
 	)
 	(wire
 		(pts
@@ -2101,6 +2098,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 67.31) (xy 83.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5004bfc7-6be4-4dd4-b132-04ffe0401e57")
+	)
+	(wire
+		(pts
 			(xy 86.36 96.52) (xy 86.36 101.6)
 		)
 		(stroke
@@ -2121,13 +2128,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 102.87 107.95)
+			(xy 83.82 67.31) (xy 83.82 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6582120e-5bcc-4427-9f9f-5ac140db9787")
+		(uuid "6ebaccab-bc6c-442c-8fa6-8309664e0cd9")
 	)
 	(wire
 		(pts
@@ -2161,16 +2168,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 115.57) (xy 102.87 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d2bcf5-f3d8-41e7-818e-3120d8fa311a")
-	)
-	(wire
-		(pts
 			(xy 140.97 68.58) (xy 142.24 68.58)
 		)
 		(stroke
@@ -2201,6 +2198,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 81.28) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e8ee8f-1929-4312-ad77-85490b804f45")
+	)
+	(wire
+		(pts
 			(xy 109.22 83.82) (xy 110.49 83.82)
 		)
 		(stroke
@@ -2208,16 +2215,6 @@
 			(type default)
 		)
 		(uuid "bb936b73-6371-4834-b6a5-b8a808d30030")
-	)
-	(wire
-		(pts
-			(xy 83.82 93.98) (xy 100.33 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddb3207b-b05e-4f7c-938b-935cdfbb0e0f")
 	)
 	(wire
 		(pts
@@ -2248,18 +2245,6 @@
 			(type default)
 		)
 		(uuid "f73767ac-bc40-4677-b7f4-3b1d892b8e3d")
-	)
-	(rectangle
-		(start 101.6 119.38)
-		(end 114.3 104.14)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d96e0d54-3142-4725-98b0-f629496ef738)
 	)
 	(text_box "USB-TTL"
 		(exclude_from_sim no)
@@ -2299,17 +2284,6 @@
 		)
 		(uuid "75a3ab67-a4a0-4cfa-9cc8-6fbd43a55476")
 	)
-	(text "DO NOT CONNECT BOTH JUMPERS:\nDUAL MODE   : SB12=0ohm, SB13=DNP\nNORMAL MODE: SB12=DNP, SB13=0ohm\n"
-		(exclude_from_sim no)
-		(at 121.158 118.872 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "00b3ffd9-5e0b-4b35-afb2-dabdac50aade")
-	)
 	(text "TX"
 		(exclude_from_sim no)
 		(at 189.738 94.742 0)
@@ -2341,6 +2315,17 @@
 		)
 		(uuid "469f6a3c-b8ee-44e3-89b4-69f98c3c199e")
 	)
+	(label "USB_N"
+		(at 101.6 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50e42f65-7a86-4a1b-b2d6-192f4ccf425e")
+	)
 	(label "GP2"
 		(at 140.97 88.9 0)
 		(fields_autoplaced yes)
@@ -2362,6 +2347,17 @@
 			(justify left bottom)
 		)
 		(uuid "a14d8b5f-73ab-4cfc-ae9d-d5111698011a")
+	)
+	(label "USB_P"
+		(at 101.6 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4080156-8fd3-48ae-8a0e-85c2384c5c98")
 	)
 	(label "GP0"
 		(at 196.85 78.74 0)
@@ -2408,9 +2404,9 @@
 		)
 		(uuid "2c4dc652-35ad-4aef-bb1a-c047105c5e47")
 	)
-	(hierarchical_label "USB_ID"
+	(hierarchical_label "USB_VBUS"
 		(shape bidirectional)
-		(at 119.38 107.95 0)
+		(at 86.36 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2418,7 +2414,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6a719439-9964-4e4d-b9a8-12990b3af781")
+		(uuid "633b3edc-a215-40f0-a428-12026a46c943")
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
@@ -2443,18 +2439,6 @@
 			(justify left)
 		)
 		(uuid "89393e74-d826-4261-8b68-a698db803723")
-	)
-	(hierarchical_label "USB_VBUS"
-		(shape bidirectional)
-		(at 83.82 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "ae08f4f4-a0a9-4910-8881-3dcc2747f9ff")
 	)
 	(hierarchical_label "UART_RX"
 		(shape input)
@@ -2490,7 +2474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01e88bd3-7c1e-4aca-9d67-f7d38a5aa1f5")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0507"
 			(at 86.36 110.998 0)
 			(effects
 				(font
@@ -2538,7 +2522,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "#PWR086")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -2554,7 +2538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02bdb9fc-ca77-4c8f-8213-39f1126c4201")
-		(property "Reference" "C28"
+		(property "Reference" "C501"
 			(at 157.48 57.7849 90)
 			(effects
 				(font
@@ -2671,7 +2655,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "C28")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -2687,7 +2671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "055949db-1c29-4ce4-b2fb-d01ffcaaf3ef")
-		(property "Reference" "D9"
+		(property "Reference" "D501"
 			(at 187.96 91.8209 90)
 			(effects
 				(font
@@ -2796,7 +2780,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "D9")
+					(reference "D501")
 					(unit 1)
 				)
 			)
@@ -2812,7 +2796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c5004c7-55e0-4b6e-b6f7-d6909c011275")
-		(property "Reference" "J11"
+		(property "Reference" "J501"
 			(at 152.4 87.6299 0)
 			(effects
 				(font
@@ -2908,7 +2892,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "J11")
+					(reference "J501")
 					(unit 1)
 				)
 			)
@@ -2923,7 +2907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2861c02e-133f-401c-90c1-9be725ec6037")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0502"
 			(at 153.67 70.358 0)
 			(effects
 				(font
@@ -2971,7 +2955,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "#PWR090")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -2986,7 +2970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bb67311-63f1-45bb-b7ee-ea9dc9455a91")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0505"
 			(at 196.85 103.378 0)
 			(effects
 				(font
@@ -3034,14 +3018,14 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "#PWR093")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:VDD")
+		(lib_id "Power_Port:5VB")
 		(at 148.59 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3050,7 +3034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3393719c-cb73-4986-94ba-37aef9ebaeeb")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0501"
 			(at 148.59 58.42 0)
 			(effects
 				(font
@@ -3059,7 +3043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "5VB"
 			(at 148.59 49.53 0)
 			(effects
 				(font
@@ -3076,7 +3060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 58.42 0)
+			(at 148.59 54.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3098,32 +3082,58 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "#PWR089")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connectors:Solder_Bridge")
-		(at 107.95 115.57 0)
-		(mirror y)
+		(lib_id "Resistors:RC0805JR-07470RL")
+		(at 83.82 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "5868e586-0af6-4244-b0a7-6494778771b3")
-		(property "Reference" "SB2"
-			(at 107.95 116.84 0)
+		(dnp no)
+		(uuid "5448fdf7-a767-4d02-9143-854c45cbf29c")
+		(property "Reference" "R501"
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "Solder_Bridge"
-			(at 107.95 123.19 0)
+		(property "Value" "RC0805JR-07470RL"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors:R0805"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf"
+			(at 107.95 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 470 OHM 5% 1/8W 0805"
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3131,8 +3141,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connectors:Solder_bridge_0805"
-			(at 107.95 138.43 0)
+		(property "Supplier" "Digikey"
+			(at 93.98 76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3140,8 +3150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "D"
-			(at 107.95 140.97 0)
+		(property "Supplier Part Number" "311-470ARCT-ND"
+			(at 96.52 76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3149,8 +3159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Bridge"
-			(at 107.95 135.89 0)
+		(property "Manufacturer" "Yageo"
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3158,8 +3168,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "N/A"
-			(at 107.95 125.73 0)
+		(property "Manufacturer Part Number" "RC0805JR-07470RL"
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3167,43 +3177,42 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "N/A"
-			(at 107.95 128.27 0)
+		(property "Resistance (Ohms)" "470"
+			(at 86.36 76.2 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance (%)" "±5%"
+			(at 85.852 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "N/A"
-			(at 107.95 130.81 0)
+		(property "Puissance (Watts)" "1/8W"
+			(at 87.376 76.2 0)
 			(effects
 				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "N/A"
-			(at 107.95 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "5cdf4ee4-5f3e-428d-9bc0-8632ffd800c6")
+			(uuid "fb8b11f1-ee5d-49bd-bc0a-1b88a62a9341")
 		)
 		(pin "2"
-			(uuid "f5eddec9-59ab-4e7e-9ea4-47e0ade09357")
+			(uuid "4b253e09-af18-41b7-aa35-5efefed8ec69")
 		)
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "SB2")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -3219,7 +3228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f39a2d0-9592-4b7d-b427-81ab522df9c3")
-		(property "Reference" "R33"
+		(property "Reference" "R503"
 			(at 199.39 82.5499 90)
 			(effects
 				(font
@@ -3336,7 +3345,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "R33")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -3351,7 +3360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fe9b60f-6820-444a-a7d6-fe054479ad0a")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0506"
 			(at 140.97 105.918 0)
 			(effects
 				(font
@@ -3399,7 +3408,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "#PWR088")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -3415,7 +3424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e399889-d6ac-4099-9bed-13c1aa33aba8")
-		(property "Reference" "C29"
+		(property "Reference" "C502"
 			(at 161.29 73.0249 90)
 			(effects
 				(font
@@ -3532,7 +3541,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "C29")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -3547,7 +3556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b8be2a5-2f52-4e86-9b70-b2c97666e6e0")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0504"
 			(at 185.42 103.378 0)
 			(effects
 				(font
@@ -3595,7 +3604,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "#PWR092")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -3610,7 +3619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81d09382-a5e4-4b44-8a50-e4012e4b0b45")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0503"
 			(at 157.48 85.598 0)
 			(effects
 				(font
@@ -3658,71 +3667,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Port:GNDB")
-		(at 119.38 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8989de37-5a04-41ce-b796-2b5d4891ef44")
-		(property "Reference" "#PWR087"
-			(at 119.38 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDB"
-			(at 119.38 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.888 122.936 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e04e624-79ec-4d8d-babf-d2a66dcd5893")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "#PWR087")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -3738,7 +3683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89b9a77c-349e-4f7b-b3cd-2fbe95b52e19")
-		(property "Reference" "J10"
+		(property "Reference" "J502"
 			(at 76.2 82.296 0)
 			(effects
 				(font
@@ -3843,112 +3788,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connectors:Solder_Bridge")
-		(at 107.95 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7e6db28-36d8-4452-96f8-be647d17d73b")
-		(property "Reference" "SB1"
-			(at 107.95 109.22 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Solder_Bridge"
-			(at 107.95 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connectors:Solder_bridge_0805"
-			(at 107.95 130.81 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "D"
-			(at 107.95 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Bridge"
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "N/A"
-			(at 107.95 118.11 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "N/A"
-			(at 107.95 120.65 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "N/A"
-			(at 107.95 123.19 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "N/A"
-			(at 107.95 125.73 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "299696e7-42ff-411e-aa15-174c122ad1ea")
-		)
-		(pin "2"
-			(uuid "921ed529-3be3-4431-98ed-c805b9a4470c")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "SB1")
+					(reference "J502")
 					(unit 1)
 				)
 			)
@@ -3964,7 +3804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c740e31e-8cd8-4244-bc49-13bcd9f2b7c3")
-		(property "Reference" "D10"
+		(property "Reference" "D502"
 			(at 199.39 91.8209 90)
 			(effects
 				(font
@@ -4073,7 +3913,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "D10")
+					(reference "D502")
 					(unit 1)
 				)
 			)
@@ -4088,7 +3928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1c0c092-1d47-4b05-b569-726a00ccf22b")
-		(property "Reference" "U11"
+		(property "Reference" "U501"
 			(at 125.984 61.976 0)
 			(effects
 				(font
@@ -4214,7 +4054,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "U11")
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -4230,7 +4070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd488896-1582-439a-a90f-2f81dfd585b8")
-		(property "Reference" "R32"
+		(property "Reference" "R502"
 			(at 187.96 82.5499 90)
 			(effects
 				(font
@@ -4347,7 +4187,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/9ebd2496-8213-4575-b78a-e0103001acbf"
-					(reference "R32")
+					(reference "R502")
 					(unit 1)
 				)
 			)
