@@ -2523,7 +2523,7 @@
 		(uuid "a303d8df-a5af-46c1-887f-0c31edfefa51")
 	)
 	(hierarchical_label "OUT7"
-		(shape output)
+		(shape input)
 		(at 104.14 102.87 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2535,7 +2535,7 @@
 		(uuid "359a55de-22d6-44fd-8919-4dece6bde860")
 	)
 	(hierarchical_label "OUT1"
-		(shape output)
+		(shape input)
 		(at 104.14 87.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2547,7 +2547,7 @@
 		(uuid "72d7a23d-ae2f-40c4-ad40-0a4e8e2140e7")
 	)
 	(hierarchical_label "OUT2"
-		(shape output)
+		(shape input)
 		(at 104.14 90.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2559,7 +2559,7 @@
 		(uuid "776fe610-d696-496d-87ce-14e392a4dde1")
 	)
 	(hierarchical_label "OUT4"
-		(shape output)
+		(shape input)
 		(at 104.14 95.25 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2571,7 +2571,7 @@
 		(uuid "9c18a9df-d83c-4da4-bd9f-b0ed731176ec")
 	)
 	(hierarchical_label "OUT6"
-		(shape output)
+		(shape input)
 		(at 104.14 100.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2583,7 +2583,7 @@
 		(uuid "ac70255a-afff-4f2c-92d5-2b7182d7636b")
 	)
 	(hierarchical_label "OUT3"
-		(shape output)
+		(shape input)
 		(at 104.14 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2595,7 +2595,7 @@
 		(uuid "c2faa353-6bc0-4f47-88d6-d7cd273653b6")
 	)
 	(hierarchical_label "OUT5"
-		(shape output)
+		(shape input)
 		(at 104.14 97.79 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2607,7 +2607,7 @@
 		(uuid "cebc6895-f3e2-45f8-8342-a1e6a314b105")
 	)
 	(hierarchical_label "OUT0"
-		(shape output)
+		(shape input)
 		(at 104.14 85.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2628,7 +2628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dc8dd8d-e495-4551-9c9e-a1f00e46a155")
-		(property "Reference" "#PWR0704"
+		(property "Reference" "#PWR0131"
 			(at 171.45 71.12 0)
 			(effects
 				(font
@@ -2676,7 +2676,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "#PWR0704")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -2691,7 +2691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "672061e7-cef5-496b-b68c-160ed87edaa5")
-		(property "Reference" "C701"
+		(property "Reference" "C38"
 			(at 162.052 69.088 90)
 			(effects
 				(font
@@ -2808,7 +2808,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "C701")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -2823,7 +2823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78577cf0-d3da-4207-8fcc-817e45874465")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR0127"
 			(at 138.43 84.328 0)
 			(effects
 				(font
@@ -2871,7 +2871,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "#PWR0706")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -2886,7 +2886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79ec519b-00e7-4bac-8582-eb22ccc2d13a")
-		(property "Reference" "#PWR0705"
+		(property "Reference" "#PWR0130"
 			(at 166.37 83.058 0)
 			(effects
 				(font
@@ -2934,7 +2934,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "#PWR0705")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -2949,7 +2949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84c3026c-afc4-4a28-8103-21036ee375d8")
-		(property "Reference" "#PWR0707"
+		(property "Reference" "#PWR0126"
 			(at 134.62 121.158 0)
 			(effects
 				(font
@@ -2997,7 +2997,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "#PWR0707")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -3013,7 +3013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8aa5cd04-3a36-4225-8d26-4d4ccfc65f9e")
-		(property "Reference" "U701"
+		(property "Reference" "U16"
 			(at 120.65 59.69 0)
 			(effects
 				(font
@@ -3168,7 +3168,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "U701")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -3183,7 +3183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce210bda-2e97-4a0f-9ed2-686e186dab6e")
-		(property "Reference" "C702"
+		(property "Reference" "C39"
 			(at 172.72 68.834 90)
 			(effects
 				(font
@@ -3300,7 +3300,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "C702")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -3316,7 +3316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0e5aa9a-ed10-46e8-be04-d493d91fc09e")
-		(property "Reference" "#PWR0703"
+		(property "Reference" "#PWR0129"
 			(at 161.29 71.12 0)
 			(effects
 				(font
@@ -3364,7 +3364,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "#PWR0703")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -3380,7 +3380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4aed3ea-048b-43da-86bf-bef75113eeda")
-		(property "Reference" "#PWR0702"
+		(property "Reference" "#PWR0128"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -3428,7 +3428,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "#PWR0702")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -3444,7 +3444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf3f5e5-0e76-4b53-925a-1bc56039aeb8")
-		(property "Reference" "#PWR0701"
+		(property "Reference" "#PWR0125"
 			(at 134.62 71.12 0)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "#PWR0701")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -3508,7 +3508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6d15b56-7096-40a2-a137-1f2e50f2634d")
-		(property "Reference" "J701"
+		(property "Reference" "J17"
 			(at 153.67 93.9799 0)
 			(effects
 				(font
@@ -3618,7 +3618,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/114a8538-54a0-4526-bfdc-fea8737f7836"
-					(reference "J701")
+					(reference "J17")
 					(unit 1)
 				)
 			)

@@ -872,7 +872,7 @@
 				)
 			)
 		)
-		(symbol "Power_Port:DGND"
+		(symbol "Power_Port:GNDB"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -889,7 +889,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "DGND"
+			(property "Value" "GNDB"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -931,7 +931,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DGND_0_1"
+			(symbol "GNDB_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 1.27 0)
@@ -969,11 +969,11 @@
 					)
 				)
 			)
-			(symbol "DGND_1_1"
+			(symbol "GNDB_1_1"
 				(pin power_in line
 					(at 0 2.54 90)
 					(length 0) hide
-					(name "DGND"
+					(name "GNDB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3578,7 +3578,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0355439f-7189-46cd-9b14-2e2a5f554424")
-		(property "Reference" "R803"
+		(property "Reference" "R46"
 			(at 95.25 106.68 0)
 			(effects
 				(font
@@ -3694,7 +3694,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "R803")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3709,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0aef6b93-1904-4902-9e6c-5f86b9f33483")
-		(property "Reference" "R805"
+		(property "Reference" "R48"
 			(at 95.25 124.46 0)
 			(effects
 				(font
@@ -3825,7 +3825,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "R805")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -3841,7 +3841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2509edb2-940f-452e-b4d6-00a2c587ce0d")
-		(property "Reference" "SB801"
+		(property "Reference" "SB3"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -3930,7 +3930,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "SB801")
+					(reference "SB3")
 					(unit 1)
 				)
 			)
@@ -3945,7 +3945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d6dbe63-b860-4c22-b142-e4f8a7d80ae3")
-		(property "Reference" "C802"
+		(property "Reference" "C42"
 			(at 187.325 59.69 90)
 			(effects
 				(font
@@ -4060,7 +4060,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "C802")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -4076,7 +4076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e159d98-c7ea-47cc-a51d-2df5ded01a4d")
-		(property "Reference" "R801"
+		(property "Reference" "R52"
 			(at 144.78 63.5 90)
 			(effects
 				(font
@@ -4194,7 +4194,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "R801")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -4211,7 +4211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e7b2bce-cdd1-4500-9335-5ad2b0937b63")
-		(property "Reference" "SB803"
+		(property "Reference" "SB4"
 			(at 156.21 106.68 0)
 			(effects
 				(font
@@ -4300,7 +4300,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "SB803")
+					(reference "SB4")
 					(unit 1)
 				)
 			)
@@ -4316,7 +4316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4752213a-828f-4237-acd4-5fd89a967b04")
-		(property "Reference" "J801"
+		(property "Reference" "J18"
 			(at 107.95 57.15 0)
 			(effects
 				(font
@@ -4423,7 +4423,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "J801")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -4440,7 +4440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c7e61e4-1b16-4707-b95d-560657ef92e9")
-		(property "Reference" "SB804"
+		(property "Reference" "SB7"
 			(at 175.26 106.68 0)
 			(effects
 				(font
@@ -4529,7 +4529,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "SB804")
+					(reference "SB7")
 					(unit 1)
 				)
 			)
@@ -4546,7 +4546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7259e804-edbf-464a-9dbe-b028084d0b73")
-		(property "Reference" "SB806"
+		(property "Reference" "SB8"
 			(at 175.26 115.57 0)
 			(effects
 				(font
@@ -4635,7 +4635,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "SB806")
+					(reference "SB8")
 					(unit 1)
 				)
 			)
@@ -4650,7 +4650,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7aedc0b1-8ad3-44ae-ae78-94b39223b865")
-		(property "Reference" "R804"
+		(property "Reference" "R47"
 			(at 95.25 115.57 0)
 			(effects
 				(font
@@ -4766,14 +4766,14 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "R804")
+					(reference "R47")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:DGND")
+		(lib_id "Power_Port:GNDB")
 		(at 172.72 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4781,7 +4781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "859f7d93-a2b3-4a8f-841b-2635cd848868")
-		(property "Reference" "#PWR0803"
+		(property "Reference" "#PWR0136"
 			(at 172.72 74.168 0)
 			(effects
 				(font
@@ -4790,8 +4790,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DGND"
-			(at 176.53 68.58 0)
+		(property "Value" "GNDB"
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +4829,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "#PWR0803")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -4846,7 +4846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d6ccc16-2bc5-489c-8cae-22be5dcc4b40")
-		(property "Reference" "SB802"
+		(property "Reference" "SB6"
 			(at 175.26 97.79 0)
 			(effects
 				(font
@@ -4935,7 +4935,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "SB802")
+					(reference "SB6")
 					(unit 1)
 				)
 			)
@@ -4951,7 +4951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fa5ca7f-18d7-4b2e-83d4-981851c6c1bf")
-		(property "Reference" "R802"
+		(property "Reference" "R51"
 			(at 133.35 66.04 0)
 			(effects
 				(font
@@ -5066,7 +5066,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "R802")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -5081,7 +5081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9223bd99-a17b-41ac-a331-7d2a3bae929c")
-		(property "Reference" "C803"
+		(property "Reference" "C40"
 			(at 147.955 74.93 90)
 			(effects
 				(font
@@ -5196,7 +5196,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "C803")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5212,7 +5212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "927d7c39-1e33-4b53-a3b6-808cf762eec6")
-		(property "Reference" "#PWR0801"
+		(property "Reference" "#PWR0134"
 			(at 142.24 58.42 0)
 			(effects
 				(font
@@ -5260,7 +5260,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "#PWR0801")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -5275,7 +5275,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "974d980f-63fc-4309-a326-4b415a9ae70c")
-		(property "Reference" "R807"
+		(property "Reference" "R50"
 			(at 95.25 142.24 0)
 			(effects
 				(font
@@ -5391,14 +5391,14 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "R807")
+					(reference "R50")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Port:DGND")
+		(lib_id "Power_Port:GNDB")
 		(at 129.54 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5406,7 +5406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "979093c3-0d0d-4c03-8d85-372cce616abb")
-		(property "Reference" "#PWR0804"
+		(property "Reference" "#PWR0133"
 			(at 129.54 89.408 0)
 			(effects
 				(font
@@ -5415,8 +5415,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "DGND"
-			(at 133.35 83.82 0)
+		(property "Value" "GNDB"
+			(at 129.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5454,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "#PWR0804")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -5470,7 +5470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c44ba149-85c6-4e4e-9001-fb85493024df")
-		(property "Reference" "#PWR0805"
+		(property "Reference" "#PWR0132"
 			(at 86.36 109.22 0)
 			(effects
 				(font
@@ -5518,7 +5518,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "#PWR0805")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -5533,7 +5533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfb688fc-6bb5-4175-a382-4240ce560070")
-		(property "Reference" "C801"
+		(property "Reference" "C41"
 			(at 167.64 59.055 90)
 			(effects
 				(font
@@ -5650,7 +5650,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "C801")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -5667,7 +5667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc22eac8-ab58-40a5-bd76-471535fca12b")
-		(property "Reference" "SB805"
+		(property "Reference" "SB5"
 			(at 156.21 115.57 0)
 			(effects
 				(font
@@ -5756,7 +5756,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "SB805")
+					(reference "SB5")
 					(unit 1)
 				)
 			)
@@ -5771,7 +5771,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "dcb28505-480d-41d0-a392-7e508c497161")
-		(property "Reference" "R806"
+		(property "Reference" "R49"
 			(at 95.25 133.35 0)
 			(effects
 				(font
@@ -5887,7 +5887,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "R806")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5903,7 +5903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe0cf7e9-3118-4e9b-8403-36ccc92a959f")
-		(property "Reference" "#PWR0802"
+		(property "Reference" "#PWR0135"
 			(at 172.72 58.42 0)
 			(effects
 				(font
@@ -5951,7 +5951,7 @@
 		(instances
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/6b453246-6ae6-4c73-99ea-9f79a5f14ff1"
-					(reference "#PWR0802")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
