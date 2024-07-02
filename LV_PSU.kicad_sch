@@ -2290,127 +2290,6 @@
 				)
 			)
 		)
-		(symbol "Connectors:Test_Point_THM"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "Test_Point_THM"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Connectors:Keystone_5001"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://keyelco.com/userAssets/file/M65p56.pdf"
-				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TEST POINT PC MINI .040\"D BLACK"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digikey"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number" "36-5001-ND"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Keystone Electronics"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "5001"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Test_Point_THM_0_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Test_Point_THM_1_1"
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "TP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diodes:150080VS75000"
 			(pin_numbers hide)
 			(pin_names
@@ -5232,12 +5111,6 @@
 		(uuid "165b8a12-e41b-4d21-884e-e9a90a9e9dfa")
 	)
 	(junction
-		(at 96.52 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21022ff4-7bc4-43bb-b417-dcf35f65a462")
-	)
-	(junction
 		(at 162.56 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5248,18 +5121,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bb18c11-90d0-491c-9f9a-ce7d9149e329")
-	)
-	(junction
-		(at 101.6 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cd24c81-3713-4343-a4e1-e8a0888643e1")
-	)
-	(junction
-		(at 184.15 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fad7786-cd18-42ab-9208-ce1f0513d301")
 	)
 	(junction
 		(at 142.24 95.25)
@@ -5284,12 +5145,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74329e24-1cb8-4d25-b406-d94a83a8f657")
-	)
-	(junction
-		(at 203.2 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7513eea7-fcd6-433b-acdd-33e79b513d51")
 	)
 	(junction
 		(at 123.19 173.99)
@@ -5376,22 +5231,10 @@
 		(uuid "cd1709e8-a9aa-4b7d-a150-78cd33ce14b4")
 	)
 	(junction
-		(at 135.89 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3df124c-f6ac-4ead-be79-0a84fea721fd")
-	)
-	(junction
 		(at 123.19 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6e8a1cf-a092-4d2b-bfc2-d7000e677092")
-	)
-	(junction
-		(at 154.94 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8ad4b14-6e97-4c24-af9e-2d3ec0c5dfc2")
 	)
 	(junction
 		(at 128.27 31.75)
@@ -5410,12 +5253,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9a8e78a-f44a-4709-b25d-60eb926b1e5a")
-	)
-	(junction
-		(at 228.6 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffa21ef7-0d25-4ec1-9e5b-88925a9269ff")
 	)
 	(wire
 		(pts
@@ -5509,7 +5346,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 95.25) (xy 154.94 95.25)
+			(xy 147.32 95.25) (xy 162.56 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5576,16 +5413,6 @@
 			(type default)
 		)
 		(uuid "1fb6b72c-3073-4e9f-ae50-fae9383198d0")
-	)
-	(wire
-		(pts
-			(xy 154.94 95.25) (xy 162.56 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc33c89-82c6-4730-a95e-8e9266046ddc")
 	)
 	(wire
 		(pts
@@ -5679,16 +5506,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 92.71) (xy 228.6 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a808e11-a3d5-4fb9-a916-1ed54ec65c62")
-	)
-	(wire
-		(pts
 			(xy 123.19 29.21) (xy 123.19 31.75)
 		)
 		(stroke
@@ -5706,16 +5523,6 @@
 			(type default)
 		)
 		(uuid "33ce7a78-8117-46d3-a54b-c614bba9cb37")
-	)
-	(wire
-		(pts
-			(xy 96.52 95.25) (xy 96.52 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36e80924-ef5c-453b-9ab9-68f55e393cfc")
 	)
 	(wire
 		(pts
@@ -5889,16 +5696,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 95.25) (xy 101.6 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "617ec492-8324-4813-be0b-6e81e2954e7f")
-	)
-	(wire
-		(pts
 			(xy 195.58 92.71) (xy 195.58 95.25)
 		)
 		(stroke
@@ -5999,16 +5796,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 154.94 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e38bce8-2224-402a-83a8-6223880ec3e6")
-	)
-	(wire
-		(pts
 			(xy 119.38 31.75) (xy 123.19 31.75)
 		)
 		(stroke
@@ -6016,16 +5803,6 @@
 			(type default)
 		)
 		(uuid "812877b2-7650-4dbe-aca9-9f30f03aa9fb")
-	)
-	(wire
-		(pts
-			(xy 184.15 29.21) (xy 184.15 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "839216af-df67-45be-ac89-2f947eb9fe2d")
 	)
 	(wire
 		(pts
@@ -6039,7 +5816,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 29.21) (xy 189.23 29.21)
+			(xy 179.07 29.21) (xy 189.23 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6079,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 92.71) (xy 208.28 92.71)
+			(xy 198.12 92.71) (xy 208.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6129,23 +5906,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 31.75) (xy 135.89 31.75)
+			(xy 128.27 31.75) (xy 143.51 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9743bb2c-0751-4e95-9028-1d113127ae96")
-	)
-	(wire
-		(pts
-			(xy 228.6 92.71) (xy 233.68 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "998925b3-869d-45b0-94de-6d1a6f1cbdda")
 	)
 	(wire
 		(pts
@@ -6229,16 +5996,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 92.71) (xy 203.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab98390a-0ab7-4609-aefe-109e2eebc9b6")
-	)
-	(wire
-		(pts
 			(xy 116.84 102.87) (xy 116.84 107.95)
 		)
 		(stroke
@@ -6259,33 +6016,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 92.71) (xy 228.6 92.71)
+			(xy 220.98 92.71) (xy 233.68 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b0d85527-558f-47a6-83a6-b28a0a74facf")
-	)
-	(wire
-		(pts
-			(xy 198.12 92.71) (xy 203.2 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4d8b2ea-44d6-443d-a46a-c1b704d72e1e")
-	)
-	(wire
-		(pts
-			(xy 179.07 29.21) (xy 184.15 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba63083b-a8b9-4bb2-8955-3a139daa773d")
 	)
 	(wire
 		(pts
@@ -6369,16 +6106,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 31.75) (xy 143.51 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c12f68-6ca5-4b24-9184-0ad6ac68d4de")
-	)
-	(wire
-		(pts
 			(xy 123.19 166.37) (xy 123.19 163.83)
 		)
 		(stroke
@@ -6386,16 +6113,6 @@
 			(type default)
 		)
 		(uuid "d0f57961-c1a1-4698-8e9b-7b41c082d903")
-	)
-	(wire
-		(pts
-			(xy 101.6 107.95) (xy 101.6 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d68d8342-0205-473f-98ca-8c872edb805e")
 	)
 	(wire
 		(pts
@@ -6439,16 +6156,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 29.21) (xy 135.89 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de1926d2-65f3-407d-8254-0ccd269a2156")
-	)
-	(wire
-		(pts
 			(xy 142.24 92.71) (xy 142.24 95.25)
 		)
 		(stroke
@@ -6469,7 +6176,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 95.25) (xy 96.52 95.25)
+			(xy 91.44 95.25) (xy 101.6 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6603,17 +6310,6 @@
 			(justify left top)
 		)
 		(uuid "cb904642-5c18-48ba-bc0b-b19782af9b60")
-	)
-	(text "12V IN"
-		(exclude_from_sim no)
-		(at 92.71 83.82 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe27317f-687f-45a7-8fdd-e3aea8fa9653")
 	)
 	(symbol
 		(lib_id "Resistors:RC0805FR-075K6L")
@@ -7463,107 +7159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:Test_Point_THM")
-		(at 154.94 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "254ee66e-ec5b-47fb-8e38-41b21ea680f2")
-		(property "Reference" "TP206"
-			(at 154.94 84.455 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Test_Point_THM"
-			(at 147.32 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connectors:Keystone_5001"
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://keyelco.com/userAssets/file/M65p56.pdf"
-			(at 129.54 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PC MINI .040\"D BLACK"
-			(at 134.62 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 144.78 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5001-ND"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 139.7 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 137.16 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32b73a91-df15-48d8-bb83-4bcdf1ddbfd0")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Port:GNDB")
 		(at 116.84 113.03 0)
 		(unit 1)
@@ -7621,208 +7216,6 @@
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
 					(reference "#PWR0219")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connectors:Test_Point_THM")
-		(at 96.52 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d575271-8e9c-47c9-a324-3ad2e3cfc928")
-		(property "Reference" "TP205"
-			(at 96.52 85.09 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Test_Point_THM"
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connectors:Keystone_5001"
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://keyelco.com/userAssets/file/M65p56.pdf"
-			(at 71.12 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PC MINI .040\"D BLACK"
-			(at 76.2 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 86.36 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5001-ND"
-			(at 83.82 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 81.28 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92ebe16d-ab08-4821-b2d5-3a4ab4c512f0")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connectors:Test_Point_THM")
-		(at 228.6 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e10a42d-a744-4f87-be73-e490167d43d4")
-		(property "Reference" "TP204"
-			(at 228.6 81.915 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Test_Point_THM"
-			(at 220.98 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connectors:Keystone_5001"
-			(at 205.74 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://keyelco.com/userAssets/file/M65p56.pdf"
-			(at 203.2 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PC MINI .040\"D BLACK"
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 218.44 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5001-ND"
-			(at 215.9 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 213.36 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 210.82 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d4e8636-9c66-4071-b7bf-df8e155dc16d")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP204")
 					(unit 1)
 				)
 			)
@@ -8268,208 +7661,6 @@
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
 					(reference "#PWR0212")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connectors:Test_Point_THM")
-		(at 184.15 21.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a030d14-25e6-42de-83bb-77dd2099ce2d")
-		(property "Reference" "TP201"
-			(at 184.15 18.415 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Test_Point_THM"
-			(at 176.53 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connectors:Keystone_5001"
-			(at 161.29 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://keyelco.com/userAssets/file/M65p56.pdf"
-			(at 158.75 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PC MINI .040\"D BLACK"
-			(at 163.83 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 173.99 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5001-ND"
-			(at 171.45 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 168.91 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 166.37 21.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ced63dd-bb40-4508-bb05-72f7a000395a")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connectors:Test_Point_THM")
-		(at 203.2 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a03cafd-d27d-42a4-90db-0924b367cabf")
-		(property "Reference" "TP203"
-			(at 203.2 81.915 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Test_Point_THM"
-			(at 195.58 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connectors:Keystone_5001"
-			(at 180.34 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://keyelco.com/userAssets/file/M65p56.pdf"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PC MINI .040\"D BLACK"
-			(at 182.88 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 193.04 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5001-ND"
-			(at 190.5 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 187.96 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 185.42 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8560104-6b73-43aa-a05a-df72a6e8c79d")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP203")
 					(unit 1)
 				)
 			)
@@ -10128,107 +9319,6 @@
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
 					(reference "#PWR0218")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connectors:Test_Point_THM")
-		(at 135.89 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b447525-9b02-443e-b90f-cb6aaf48a34f")
-		(property "Reference" "TP202"
-			(at 135.89 20.955 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Test_Point_THM"
-			(at 128.27 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connectors:Keystone_5001"
-			(at 113.03 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://keyelco.com/userAssets/file/M65p56.pdf"
-			(at 110.49 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PC MINI .040\"D BLACK"
-			(at 115.57 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 125.73 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5001-ND"
-			(at 123.19 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 120.65 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 118.11 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f088f80-06be-43fb-b969-bcfa643b2d0d")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -12439,107 +11529,6 @@
 			(project "SACE-HW"
 				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
 					(reference "#PWR0208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connectors:Test_Point_THM")
-		(at 101.6 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa19872c-753f-442a-9be8-68bc046d705a")
-		(property "Reference" "TP207"
-			(at 101.6 118.745 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Test_Point_THM"
-			(at 109.22 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connectors:Keystone_5001"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://keyelco.com/userAssets/file/M65p56.pdf"
-			(at 127 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TEST POINT PC MINI .040\"D BLACK"
-			(at 121.92 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 111.76 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "36-5001-ND"
-			(at 114.3 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 116.84 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 119.38 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50a042c0-cb86-412a-afa9-10a5485cc161")
-		)
-		(instances
-			(project "SACE-HW"
-				(path "/4c1e5ca8-aa0f-4a8e-bffe-6765adb2e3e8/0f8b1d52-3451-4d91-9a0f-fc5eea3d9449"
-					(reference "TP207")
 					(unit 1)
 				)
 			)
