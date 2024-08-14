@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "1d4a48c7-ab22-4ebb-8730-ff9af661665b")
 	(paper "A4")
+	(title_block
+		(title "PIEZZO")
+		(date "2024-07-24")
+		(company "Gérémy Sauvageau")
+	)
 	(lib_symbols
 		(symbol "Amplifiers:TLV9302IDR"
 			(pin_names
@@ -2399,7 +2404,7 @@
 		(uuid "46b6f575-9011-464d-a399-889fde59009d")
 	)
 	(junction
-		(at 182.88 66.04)
+		(at 166.37 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49c1ef14-b744-4e9a-8837-a52a420668eb")
@@ -2411,7 +2416,7 @@
 		(uuid "55658fe9-9e48-4ffe-926c-ab5fb47fc0f9")
 	)
 	(junction
-		(at 182.88 50.8)
+		(at 166.37 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6816fefc-6b29-4196-aafe-4af02694c5db")
@@ -2488,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 66.04) (xy 186.69 63.5)
+			(xy 170.18 64.77) (xy 170.18 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2498,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 50.8) (xy 182.88 50.8)
+			(xy 170.18 49.53) (xy 166.37 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 182.88 66.04)
+			(xy 161.29 64.77) (xy 166.37 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2718,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 55.88) (xy 186.69 50.8)
+			(xy 170.18 54.61) (xy 170.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2728,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 55.88) (xy 177.8 50.8)
+			(xy 161.29 54.61) (xy 161.29 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2748,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 63.5) (xy 177.8 66.04)
+			(xy 161.29 62.23) (xy 161.29 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2808,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 66.04) (xy 186.69 66.04)
+			(xy 166.37 64.77) (xy 170.18 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2968,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 50.8) (xy 182.88 50.8)
+			(xy 161.29 49.53) (xy 166.37 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3132,7 +3137,7 @@
 	)
 	(symbol
 		(lib_id "Power_Port:DGND")
-		(at 182.88 68.58 0)
+		(at 166.37 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3140,7 +3145,7 @@
 		(dnp no)
 		(uuid "180a8df1-fa90-43a4-b878-7f1973d8ab37")
 		(property "Reference" "#PWR0108"
-			(at 182.88 72.898 0)
+			(at 166.37 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +3154,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 186.182 71.374 0)
+			(at 169.672 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +3162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 66.04 0)
+			(at 166.37 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3165,7 +3170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.372 70.866 0)
+			(at 165.862 69.596 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3173,7 +3178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 68.58 0)
+			(at 166.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +3540,7 @@
 	)
 	(symbol
 		(lib_id "Power_Port:5V")
-		(at 182.88 50.8 0)
+		(at 166.37 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3544,7 +3549,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dbbeadd-3c8b-45d4-9394-d3e8e30f7b0b")
 		(property "Reference" "#PWR0107"
-			(at 182.88 54.61 0)
+			(at 166.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +3558,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 182.88 45.72 0)
+			(at 166.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 50.8 0)
+			(at 166.37 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3569,7 +3574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 50.8 0)
+			(at 166.37 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3577,7 +3582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 50.8 0)
+			(at 166.37 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4113,7 @@
 	)
 	(symbol
 		(lib_id "Capacitors:885012107015")
-		(at 177.8 58.42 90)
+		(at 161.29 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4117,7 +4122,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaf04e00-2870-4d69-8009-c2cb86e44023")
 		(property "Reference" "C103"
-			(at 181.61 57.7849 90)
+			(at 165.1 56.5149 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4126,7 +4131,7 @@
 			)
 		)
 		(property "Value" "885012107015"
-			(at 186.69 59.69 0)
+			(at 170.18 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4135,7 +4140,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors:C0805"
-			(at 201.93 59.69 0)
+			(at 185.42 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4144,7 +4149,7 @@
 			)
 		)
 		(property "Datasheet" "D"
-			(at 204.47 59.69 0)
+			(at 187.96 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4153,7 +4158,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 25V X5R 0805"
-			(at 199.39 59.69 0)
+			(at 182.88 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4162,7 +4167,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 189.23 59.69 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4171,7 +4176,7 @@
 			)
 		)
 		(property "Supplier Part Number" "732-7625-1-ND"
-			(at 191.77 59.69 0)
+			(at 175.26 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4180,7 +4185,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Electronics Inc."
-			(at 194.31 59.69 0)
+			(at 177.8 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4189,7 +4194,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "885012107015"
-			(at 196.85 59.69 0)
+			(at 180.34 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4198,7 +4203,7 @@
 			)
 		)
 		(property "Capacitance (Farad)" "1µF"
-			(at 181.61 60.3249 90)
+			(at 165.1 59.0549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4212,7 @@
 			)
 		)
 		(property "Tolerance (%)" "±20%"
-			(at 180.848 53.086 0)
+			(at 164.338 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +4221,7 @@
 			)
 		)
 		(property "Voltage Rated (Volt)" "25V"
-			(at 182.626 59.69 0)
+			(at 166.116 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4246,7 @@
 	)
 	(symbol
 		(lib_id "Capacitors:885012207098")
-		(at 186.69 58.42 90)
+		(at 170.18 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4250,7 +4255,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad339362-da97-46c8-a2fb-fe527ec91ecb")
 		(property "Reference" "C102"
-			(at 190.5 57.7849 90)
+			(at 173.99 56.5149 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4259,7 +4264,7 @@
 			)
 		)
 		(property "Value" "885012207098"
-			(at 195.58 59.69 0)
+			(at 179.07 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4268,7 +4273,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors:C0805"
-			(at 210.82 59.69 0)
+			(at 194.31 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4277,7 +4282,7 @@
 			)
 		)
 		(property "Datasheet" "D"
-			(at 213.36 59.69 0)
+			(at 196.85 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4286,7 +4291,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 100nF 50V X7R 0805"
-			(at 208.28 59.69 0)
+			(at 191.77 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4295,7 +4300,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 198.12 59.69 0)
+			(at 181.61 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4304,7 +4309,7 @@
 			)
 		)
 		(property "Supplier Part Number" "732-8080-1-ND"
-			(at 200.66 59.69 0)
+			(at 184.15 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4313,7 +4318,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Electronics Inc."
-			(at 203.2 59.69 0)
+			(at 186.69 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4322,7 +4327,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "885012207098"
-			(at 205.74 59.69 0)
+			(at 189.23 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4331,7 +4336,7 @@
 			)
 		)
 		(property "Capacitance (Farad)" "100nF"
-			(at 190.5 60.3249 90)
+			(at 173.99 59.0549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4345,7 @@
 			)
 		)
 		(property "Tolerance (%)" "±10%"
-			(at 189.738 53.086 0)
+			(at 173.228 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4354,7 @@
 			)
 		)
 		(property "Voltage Rated (Volt)" "50V"
-			(at 191.516 59.69 0)
+			(at 175.006 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)

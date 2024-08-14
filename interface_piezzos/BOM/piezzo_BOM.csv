@@ -1,0 +1,9 @@
+Reference;Value;Datasheet;Footprint;Qty;DNP;Supplier Part Number;REF
+"C101;C102;C104";8,85012E+11;D;Capacitors:C0805;3;;732-8080-1-ND;PIEZZO
+C103;8,85012E+11;D;Capacitors:C0805;1;;732-7625-1-ND;PIEZZO
+J101;2350514-4;2350514-4;CONN4_1155650000_TEC;1;;A145380-ND;PIEZZO
+R101;RC0805JR-0710KL;http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf;Resistors:R0805;1;;311-10KARCT-ND;PIEZZO
+"TP101;TP102;TP103;TP104;TP105;TP106;TP107;TP108";Test_Point_THM;http://keyelco.com/userAssets/file/M65p56.pdf;Connectors:Keystone_5001;8;;36-5001-ND;PIEZZO
+U101;TLV9302IDR;https://www.ti.com/lit/ds/symlink/tlv9301.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1715651561791;Assembly:IC8_TLV9302IDR_TEX;1;;296-53513-1-ND;PIEZZO
+VR101;67WR10KLF;https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/67.pdf;Resistors:67W;1;;987-1088-ND;PIEZZO
+Z1;MMSZ5231B;https://www.diodes.com/assets/Datasheets/ds18010.pdf;Diodes:SOD-123FL;1;;MMSZ5231B-FDITR-ND;PIEZZO
