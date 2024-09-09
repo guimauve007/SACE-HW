@@ -1,6 +1,15 @@
 # SACE-HW
 Répertoire contenant 2 cartes pour machine SACE:
 
+## Getting started
+- Installer la dernière version de KiCad ici: https://www.kicad.org/download/
+- Cloner ce répertoire sur votre ordinateur local:
+
+```
+git clone https://github.com/guimauve007/SACE-HW.git
+```
+
+
 ## carte_controle (V1)
 Module de contrôle versatile avec les fonctionnalités suivantes:
 - 2 connecteurs BNC pour lecture de tension & de courant des électrodes (à l'oscilloscope)
